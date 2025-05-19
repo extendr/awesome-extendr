@@ -4,7 +4,6 @@ format: gfm
 ---
 
 
-
 ## CRAN Packages
 
 The below packages use extendr and are currently (as of `r format(Sys.Date())`) published on CRAN. 
@@ -12,7 +11,7 @@ The below packages use extendr and are currently (as of `r format(Sys.Date())`) 
 ```{r message=FALSE, warning = FALSE, echo=FALSE}
 readr::read_csv("cran-pkgs.csv") |> 
     dplyr::mutate(Description = stringr::str_squish(Description)) |> 
-    dplyr::filter(Package != "Polars") |> 
+    dplyr::filter(Package != "polars") |> 
     dplyr::arrange(Package) |> 
     knitr::kable("simple")
 ```
