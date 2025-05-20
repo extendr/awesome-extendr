@@ -1,20 +1,88 @@
 ---
 title: A curated list of extendr-powered R packages
 format: gfm
+execute:
+  echo: false
+  warning: false
 ---
 
-## CRAN Packages
+LAST UPDATED: `r format(Sys.Date())`
 
-The below packages use extendr and are currently (as of `r format(Sys.Date())`)
-published on CRAN.
+The below packages use extendr and are currently published on CRAN.
 
-```{r message=FALSE, warning = FALSE, echo=FALSE}
-readr::read_csv("cran-pkgs.csv") |>
-  dplyr::mutate(
-    Description = stringr::str_squish(Description),
-    URL = stringr::str_replace_all(URL, "\\r\\n", " ")
-  ) |>
-  dplyr::select(Package, Description, URL) |>
-  dplyr::arrange(tolower(Package)) |>
-  knitr::kable("simple")
+```{r}
+#| output: asis
+pkgs <- read.csv("cran-pkgs.csv")
+
+Author <- vapply(
+  strsplit(pkgs[["Author"]], split = " \\["),
+  \(.x) .x[[1]],
+  character(1),
+  USE.NAMES = FALSE
+)
+
+# clean up url strings
+URL <- gsub("\\n", "", pkgs[["URL"]])
+URL <- gsub(",\\s*", ", ", URL)
+
+first_url <- vapply(
+  strsplit(URL, ","),
+  \(.x) .x[[1]],
+  character(1),
+  USE.NAMES = FALSE
+)
+
+Package <- ifelse(
+  is.na(first_url),
+  sprintf("<strong>%s</strong>", pkgs[["Package"]]),
+  sprintf("<a href='%s'><strong>%s</strong></a>", first_url, pkgs[["Package"]])
+)
+
+Title <- pkgs[["Title"]]
+
+# wrap urls in a-tags, so they render correctly in raw html
+URL <- gsub(
+  "(^|,\\s*)([^,]+)",
+  "\\1<a href='\\2'>\\2</a>",
+  URL,
+  perl = TRUE
+)
+
+# convert na to empty string
+URL <- ifelse(is.na(first_url), "", URL)
+
+Description <- gsub(
+  "<([^>]+)>",
+  "<a href='\\1'>\\1</a>",
+  pkgs[["Description"]],
+  perl = TRUE
+)
+
+list_item_template <- paste(
+  "<details>",
+  "  <summary>%s: %s</summary>",
+  "  <div style='margin-left: 1em;'>",
+  "    <strong>Author:</strong> %s<br>",
+  "    <strong>URL:</strong> %s<br>",
+  "    <strong>Description:</strong> %s",
+  "  </div>",
+  "</details>",
+  sep = "\n"
+)
+
+list_items <- sprintf(
+  list_item_template,
+  Package,
+  Title,
+  Author,
+  URL,
+  Description
+)
+
+cat(
+  "```{=html}",
+  paste0(list_items, collapse = "\n"),
+  "```",
+  sep = "\n"
+)
 ```
