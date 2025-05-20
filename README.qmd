@@ -3,15 +3,18 @@ title: A curated list of extendr-powered R packages
 format: gfm
 ---
 
-
 ## CRAN Packages
 
-The below packages use extendr and are currently (as of `r format(Sys.Date())`) published on CRAN. 
+The below packages use extendr and are currently (as of `r format(Sys.Date())`)
+published on CRAN.
 
 ```{r message=FALSE, warning = FALSE, echo=FALSE}
-readr::read_csv("cran-pkgs.csv") |> 
-    dplyr::mutate(Description = stringr::str_squish(Description)) |> 
-    dplyr::filter(Package != "polars") |> 
-    dplyr::arrange(Package) |> 
-    knitr::kable("simple")
+readr::read_csv("cran-pkgs.csv") |>
+  dplyr::mutate(
+    Description = stringr::str_squish(Description),
+    URL = stringr::str_replace_all(URL, "\\r\\n", " ")
+  ) |>
+  dplyr::select(Package, Description, URL) |>
+  dplyr::arrange(tolower(Package)) |>
+  knitr::kable("simple")
 ```
