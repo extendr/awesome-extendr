@@ -61,11 +61,11 @@ Description <- gsub(
 list_item_template <- paste(
   "<details>",
   "  <summary>%s: %s</summary>",
-  "  <div style='margin-left: 1em;'>",
-  "    <strong>Author:</strong> %s<br>",
-  "    <strong>URL:</strong> %s<br>",
-  "    <strong>Description:</strong> %s",
-  "  </div>",
+  "    <ul>",
+  "      <li><strong>Author:</strong> %s</li>",
+  "      <li><strong>URL:</strong> %s</li>",
+  "      <li><strong>Description:</strong> %s</li>",
+  "    </ul>",
   "</details>",
   sep = "\n"
 )
