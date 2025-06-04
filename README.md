@@ -1,7 +1,7 @@
 # A curated list of extendr-powered R packages
 
 
-LAST UPDATED: 2025-05-20
+LAST UPDATED: 2025-06-04
 
 The below packages use extendr and are currently published on CRAN.
 
@@ -70,6 +70,16 @@ The below packages use extendr and are currently published on CRAN.
       <li><strong>URL:</strong> <a href='https://r.esri.com/arcpbf/'>https://r.esri.com/arcpbf/</a>, <a href='https://github.com/R-ArcGIS/arcpbf'>https://github.com/R-ArcGIS/arcpbf</a></li>
       <li><strong>Description:</strong> Fast processing of ArcGIS FeatureCollection protocol buffers in R.
   It is designed to work seamlessly with 'httr2' and integrates with 'sf'. </li>
+    </ul>
+</details>
+<details>
+  <summary><a href='https://github.com/etiennebacher/astgrepr'><strong>astgrepr</strong></a>: Parse and Manipulate R Code</summary>
+    <ul>
+      <li><strong>Author:</strong> Etienne Bacher</li>
+      <li><strong>URL:</strong> <a href='https://github.com/etiennebacher/astgrepr'>https://github.com/etiennebacher/astgrepr</a>, <a href='https://astgrepr.etiennebacher.com/'>https://astgrepr.etiennebacher.com/</a></li>
+      <li><strong>Description:</strong> Parsing R code is key to build tools such as linters and stylers.
+    This package provides a binding to the 'Rust' crate 'ast-grep' so that one
+    can parse and explore R code.</li>
     </ul>
 </details>
 <details>

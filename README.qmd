@@ -6,14 +6,45 @@ execute:
   warning: false
 ---
 
+```{r}
+#| label: rust-pkgs
+# Get all Rust-powered packages
+pkgs <- subset(
+  tools::CRAN_package_db(),
+  grepl("rust", tolower(SystemRequirements))
+)
+
+# Now find all extendr-powered packages using the GitHub CRAN mirror. This
+# involves looking for Config/rextendr/version in DESCRIPTION, which isn't
+# copied over to CRAN, so not found in CRAN_package_db()
+description_files <- sprintf(
+  "https://cran.r-project.org/web/packages/%s/DESCRIPTION",
+  pkgs[["Package"]]
+)
+
+is_extendr <- vapply(
+  description_files,
+  \(.x) any(grepl("rextendr", tolower(readLines(.x)))),
+  logical(1),
+  USE.NAMES = FALSE
+)
+
+pkgs <- pkgs[is_extendr, ]
+
+write.csv(
+  pkgs,
+  "cran-pkgs.csv",
+  row.names = FALSE
+)
+```
+
 LAST UPDATED: `r format(Sys.Date())`
 
 The below packages use extendr and are currently published on CRAN.
 
 ```{r}
+#| label: pkg-list
 #| output: asis
-pkgs <- read.csv("cran-pkgs.csv")
-
 Author <- vapply(
   strsplit(pkgs[["Author"]], split = " \\["),
   \(.x) .x[[1]],
