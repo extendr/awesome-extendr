@@ -1,5 +1,5 @@
 ---
-title: A curated list of extendr-powered R packages
+title: Awesome extendr
 format: gfm
 execute:
   echo: false
@@ -31,6 +31,39 @@ is_extendr <- vapply(
 
 pkgs <- pkgs[is_extendr, ]
 
+pkgs <- subset(pkgs, Package != "rextendr")
+```
+
+```{r}
+#| label: arcgisplaces-urls
+pkgs[pkgs[["Package"]] == "arcgisplaces", "URL"] <- paste(
+  "https://github.com/R-ArcGIS/arcgisplaces",
+  "https://developers.arcgis.com/r-bridge/api-reference/arcgisplaces",
+  "https://r.esri.com/arcgisplaces",
+  sep = ", "
+)
+```
+
+```{r}
+#| label: downloads
+all_downloads <- cranlogs::cran_downloads(
+  pkgs[["Package"]],
+  from = "2023-01-01",
+  to = Sys.Date()
+)
+
+pkg_downloads <- subset(all_downloads, count > 0)
+
+pkg_downloads <- aggregate(
+  count ~ package,
+  data = pkg_downloads,
+  FUN = sum
+)
+
+names(pkg_downloads) <- c("Package", "Count")
+
+pkgs <- merge(pkgs, pkg_downloads, all.x = TRUE)
+
 write.csv(
   pkgs,
   "cran-pkgs.csv",
@@ -38,9 +71,34 @@ write.csv(
 )
 ```
 
-LAST UPDATED: `r format(Sys.Date())`
+```{r}
+#| label: badges
+#| output: asis
+total_downloads <- sum(pkg_downloads[["Count"]])
 
-The below packages use extendr and are currently published on CRAN.
+use_badge <- function(label, message) {
+  label <- gsub(" ", "_", label)
+  message <- gsub(" ", "_", message)
+  message <- gsub("-", "--", message)
+
+  sprintf(
+    "![Static Badge](https://img.shields.io/badge/%s-%s-%s)",
+    label,
+    message,
+    "276DC2"
+  )
+}
+
+cat(
+  "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
+  use_badge("Last Updated", format(Sys.Date())),
+  use_badge("Total Downloads", total_downloads),
+  sep = "\n"
+)
+```
+
+A curated list of R packages that use [extendr](https://extendr.github.io/) and 
+are currently published on [CRAN](https://cran.r-project.org/).
 
 ```{r}
 #| label: pkg-list
@@ -89,6 +147,8 @@ Description <- gsub(
   perl = TRUE
 )
 
+Count <- pkgs[["Count"]]
+
 list_item_template <- paste(
   "<details>",
   "  <summary>%s: %s</summary>",
@@ -96,6 +156,7 @@ list_item_template <- paste(
   "      <li><strong>Author:</strong> %s</li>",
   "      <li><strong>URL:</strong> %s</li>",
   "      <li><strong>Description:</strong> %s</li>",
+  "      <li><strong>Downloads:</strong> %s</li>",
   "    </ul>",
   "</details>",
   sep = "\n"
@@ -107,7 +168,8 @@ list_items <- sprintf(
   Title,
   Author,
   URL,
-  Description
+  Description,
+  Count
 )
 
 cat(
