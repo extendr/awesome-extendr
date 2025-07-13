@@ -1,6 +1,7 @@
 ---
 title: Awesome extendr
 format: gfm
+default-image-extension: ""
 execute:
   echo: false
   warning: false
