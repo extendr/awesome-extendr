@@ -1,7 +1,8 @@
 "Package","Version","Priority","Depends","Imports","LinkingTo","Suggests","Enhances","License","License_is_FOSS","License_restricts_use","OS_type","Archs","MD5sum","NeedsCompilation","Additional_repositories","Author","Authors@R","Biarch","BugReports","BuildKeepEmpty","BuildManual","BuildResaveData","BuildVignettes","Built","ByteCompile","Classification/ACM","Classification/ACM-2012","Classification/JEL","Classification/MSC","Classification/MSC-2010","Collate","Collate.unix","Collate.windows","Contact","Copyright","Date","Date/Publication","Description","Encoding","KeepSource","Language","LazyData","LazyDataCompression","LazyLoad","MailingList","Maintainer","Note","Packaged","RdMacros","StagedInstall","SysDataCompression","SystemRequirements","Title","Type","URL","UseLTO","VignetteBuilder","ZipData","Path","X-CRAN-Comment","Published","Reverse depends","Reverse imports","Reverse linking to","Reverse suggests","Reverse enhances","Deadline","DOI","Count"
 "arcgis","0.2.0",NA,NA,"arcgisgeocode (>= 0.1.0), arcgislayers (>= 0.2.0),
 arcgisplaces (>= 0.1.0), arcgisutils (>= 0.3.0), cli, httr2 (>=
-1.0.0), utils",NA,"arcpbf, calcite, testthat (>= 3.0.0)",NA,"Apache License (>= 2)",NA,NA,NA,NA,"0a50d486294435a585372fd48b56845c","no",NA,"Josiah Parry [aut, cre] (<https://orcid.org/0000-0001-9910-865X>)","
+1.0.0), utils",NA,"arcpbf, calcite, testthat (>= 3.0.0)",NA,"Apache License (>= 2)",NA,NA,NA,NA,"0a50d486294435a585372fd48b56845c","no",NA,"Josiah Parry [aut, cre] (ORCID:
+    <https://orcid.org/0000-0001-9910-865X>)","
     person(""Josiah"", ""Parry"", , ""josiah.parry@gmail.com"", role = c(""aut"", ""cre""),
            comment = c(ORCID = ""0000-0001-9910-865X""))",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-04-25 12:10:05 UTC","Provides easy installation and loading of core ArcGIS
     location services packages 'arcgislayers', 'arcgisutils',
@@ -9,11 +10,12 @@ arcgisplaces (>= 0.1.0), arcgisutils (>= 0.3.0), cli, httr2 (>=
     with spatial data and services from 'ArcGIS Online', 'ArcGIS
     Enterprise', and 'ArcGIS Platform'. Learn more about the 'arcgis'
     meta-package at <https://developers.arcgis.com/r-bridge/>.","UTF-8",NA,"en",NA,NA,NA,NA,"Josiah Parry <josiah.parry@gmail.com>",NA,"2025-04-23 20:02:10 UTC; josiahparry",NA,NA,NA,"Cargo (Rust's package manager), rustc","ArcGIS Location Services Meta-Package",NA,"https://github.com/R-ArcGIS/arcgis/,
-https://developers.arcgis.com/r-bridge/",NA,NA,NA,NA,NA,"2025-04-25",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.arcgis",4980
-"arcgisgeocode","0.2.3",NA,"R (>= 4.2)","arcgisutils (>= 0.3.0), cli, curl, httr2 (>= 1.0.5), jsonify,
-RcppSimdJson (>= 0.1.13), rlang (>= 1.1.0), sf",NA,"data.table, dplyr, testthat (>= 3.0.0)",NA,"Apache License (>= 2)",NA,NA,NA,NA,"fe916c93988f0d95635665a2d6561752","yes",NA,"Josiah Parry [aut, cre] (<https://orcid.org/0000-0001-9910-865X>)","
+https://developers.arcgis.com/r-bridge/",NA,NA,NA,NA,NA,"2025-04-25",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.arcgis",6039
+"arcgisgeocode","0.3.0",NA,"R (>= 4.2)","arcgisutils (>= 0.3.0), cli, httr2 (>= 1.1.1), jsonify,
+RcppSimdJson (>= 0.1.13), rlang (>= 1.1.0), sf",NA,"data.table, dplyr, testthat (>= 3.0.0)",NA,"Apache License (>= 2)",NA,NA,NA,NA,"e79bff8fda7a11d715727159b4a15d9c","yes",NA,"Josiah Parry [aut, cre] (ORCID:
+    <https://orcid.org/0000-0001-9910-865X>)","
     person(""Josiah"", ""Parry"", , ""josiah.parry@gmail.com"", role = c(""aut"", ""cre""),
-           comment = c(ORCID = ""0000-0001-9910-865X""))",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-04-11 08:20:14 UTC","A very fast and robust interface to ArcGIS 'Geocoding
+           comment = c(ORCID = ""0000-0001-9910-865X""))",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-07-28 18:40:18 UTC","A very fast and robust interface to ArcGIS 'Geocoding
     Services'. Provides capabilities for reverse geocoding, finding
     address candidates, character-by-character search autosuggestion, and
     batch geocoding. The public 'ArcGIS World Geocoder' is accessible for
@@ -21,9 +23,10 @@ RcppSimdJson (>= 0.1.13), rlang (>= 1.1.0), sf",NA,"data.table, dplyr, testthat 
     'arcgisgeocode' also integrates with 'arcgisutils' to provide access
     to custom locators or private 'ArcGIS World Geocoder' hosted on
     'ArcGIS Enterprise'. Learn more in the 'Geocode service' API reference
-    <https://developers.arcgis.com/rest/geocode/api-reference/overview-world-geocoding-service.htm>.","UTF-8",NA,"en","true",NA,NA,NA,"Josiah Parry <josiah.parry@gmail.com>",NA,"2025-04-10 20:06:05 UTC; josiahparry",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.67","A Robust Interface to ArcGIS 'Geocoding Services'",NA,"https://github.com/r-arcgis/arcgisgeocode,
-https://developers.arcgis.com/r-bridge/api-reference/arcgisgeocode",NA,NA,NA,NA,NA,"2025-04-11",NA,"arcgis",NA,NA,NA,NA,"10.32614/CRAN.package.arcgisgeocode",6619
-"arcgisplaces","0.1.2",NA,"R (>= 4.2)","arcgisutils (>= 0.3.0), cli, httr2 (>= 1.0.5), rlang, wk",NA,"sf",NA,"Apache License (>= 2)",NA,NA,NA,NA,"39cba530796530bd1ff5b951000a57b0","yes",NA,"Josiah Parry [aut, cre] (<https://orcid.org/0000-0001-9910-865X>)","
+    <https://developers.arcgis.com/rest/geocode/api-reference/overview-world-geocoding-service.htm>.","UTF-8",NA,"en","true",NA,NA,NA,"Josiah Parry <josiah.parry@gmail.com>",NA,"2025-07-28 18:09:19 UTC; josiahparry",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.67, xz","A Robust Interface to ArcGIS 'Geocoding Services'",NA,"https://github.com/r-arcgis/arcgisgeocode,
+https://developers.arcgis.com/r-bridge/api-reference/arcgisgeocode",NA,NA,NA,NA,NA,"2025-07-28",NA,"arcgis",NA,NA,NA,NA,"10.32614/CRAN.package.arcgisgeocode",7695
+"arcgisplaces","0.1.2",NA,"R (>= 4.2)","arcgisutils (>= 0.3.0), cli, httr2 (>= 1.0.5), rlang, wk",NA,"sf",NA,"Apache License (>= 2)",NA,NA,NA,NA,"39cba530796530bd1ff5b951000a57b0","yes",NA,"Josiah Parry [aut, cre] (ORCID:
+    <https://orcid.org/0000-0001-9910-865X>)","
     person(""Josiah"", ""Parry"", , ""josiah.parry@gmail.com"", role = c(""aut"", ""cre""),
            comment = c(ORCID = ""0000-0001-9910-865X""))",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-04-10 16:20:02 UTC","The ArcGIS 'Places service' is a ready-to-use location
     service that can search for businesses and geographic locations around
@@ -31,11 +34,12 @@ https://developers.arcgis.com/r-bridge/api-reference/arcgisgeocode",NA,NA,NA,NA,
     information about each place. Query for places near a point, within a
     bounding box, filter based on categories, or provide search text.
     'arcgisplaces' integrates with 'sf' for out of the box compatibility
-    with other spatial libraries. Learn more in the 'Places service' API reference <https://developers.arcgis.com/rest/places/>.","UTF-8",NA,"en","true",NA,NA,NA,"Josiah Parry <josiah.parry@gmail.com>",NA,"2025-04-10 15:14:24 UTC; josiahparry",NA,NA,NA,"Cargo (Rust's package manager), rustc, OpenSSL","Search for POIs using ArcGIS 'Places Service'",NA,"https://github.com/R-ArcGIS/arcgisplaces, https://developers.arcgis.com/r-bridge/api-reference/arcgisplaces, https://r.esri.com/arcgisplaces",NA,NA,NA,NA,NA,"2025-04-10",NA,"arcgis",NA,NA,NA,NA,"10.32614/CRAN.package.arcgisplaces",15420
+    with other spatial libraries. Learn more in the 'Places service' API reference <https://developers.arcgis.com/rest/places/>.","UTF-8",NA,"en","true",NA,NA,NA,"Josiah Parry <josiah.parry@gmail.com>",NA,"2025-04-10 15:14:24 UTC; josiahparry",NA,NA,NA,"Cargo (Rust's package manager), rustc, OpenSSL","Search for POIs using ArcGIS 'Places Service'",NA,"https://github.com/R-ArcGIS/arcgisplaces, https://developers.arcgis.com/r-bridge/api-reference/arcgisplaces, https://r.esri.com/arcgisplaces",NA,NA,NA,NA,NA,"2025-04-10",NA,"arcgis",NA,NA,NA,NA,"10.32614/CRAN.package.arcgisplaces",47506
 "arcgisutils","0.3.3",NA,"R (>= 4.2)","cli, dbplyr, httr2 (>= 1.0.5), RcppSimdJson, rlang, sf, utils",NA,"arcgisbinding, collapse (>= 2.0.0), data.table, vctrs,
-testthat (>= 3.0.0), jsonify",NA,"Apache License (>= 2)",NA,NA,NA,NA,"57c717c0062a03d05f764e44a6906c66","yes",NA,"Josiah Parry [aut, cre] (<https://orcid.org/0000-0001-9910-865X>),
-  Kenneth Vernon [ctb] (<https://orcid.org/0000-0003-0098-5092>),
-  Martha Bass [ctb] (<https://orcid.org/0009-0004-0268-5426>)","c(
+testthat (>= 3.0.0), jsonify",NA,"Apache License (>= 2)",NA,NA,NA,NA,"57c717c0062a03d05f764e44a6906c66","yes",NA,"Josiah Parry [aut, cre] (ORCID:
+    <https://orcid.org/0000-0001-9910-865X>),
+  Kenneth Vernon [ctb] (ORCID: <https://orcid.org/0000-0003-0098-5092>),
+  Martha Bass [ctb] (ORCID: <https://orcid.org/0009-0004-0268-5426>)","c(
     person(""Josiah"", ""Parry"", , ""josiah.parry@gmail.com"", role = c(""aut"", ""cre""),
            comment = c(ORCID = ""0000-0001-9910-865X"")),
     person(""Kenneth"", ""Vernon"", , ""kenneth.b.vernon@gmail.com"", role = ""ctb"",
@@ -50,11 +54,12 @@ testthat (>= 3.0.0), jsonify",NA,"Apache License (>= 2)",NA,NA,NA,NA,"57c717c006
     authorization can be done via 'arcgisbinding'. Installation
     instructions for 'arcgisbinding' can be found at
     <https://developers.arcgis.com/r-bridge/installation/>.","UTF-8",NA,"en",NA,NA,NA,NA,"Josiah Parry <josiah.parry@gmail.com>",NA,"2025-04-10 14:22:38 UTC; josiahparry",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.67","ArcGIS Utility Functions",NA,"https://github.com/R-ArcGIS/arcgisutils,
-https://developers.arcgis.com/r-bridge/api-reference/arcgisutils/",NA,NA,NA,NA,NA,"2025-04-10",NA,"arcgis, arcgisgeocode, arcgislayers, arcgisplaces, arcpbf",NA,NA,NA,NA,"10.32614/CRAN.package.arcgisutils",17383
-"arcpbf","0.1.7",NA,"R (>= 4.2)","arcgisutils (>= 0.3.0), rlang",NA,"httr2, sf, testthat (>= 3.0.0)",NA,"Apache License (>= 2)",NA,NA,NA,NA,"2bca292af978d872a417a71e5c69cbda","yes",NA,"Josiah Parry [aut, cre] (<https://orcid.org/0000-0001-9910-865X>)","
+https://developers.arcgis.com/r-bridge/api-reference/arcgisutils/",NA,NA,NA,NA,NA,"2025-04-10",NA,"arcgis, arcgisgeocode, arcgislayers, arcgisplaces, arcpbf",NA,NA,NA,NA,"10.32614/CRAN.package.arcgisutils",18657
+"arcpbf","0.1.7",NA,"R (>= 4.2)","arcgisutils (>= 0.3.0), rlang",NA,"httr2, sf, testthat (>= 3.0.0)",NA,"Apache License (>= 2)",NA,NA,NA,NA,"2bca292af978d872a417a71e5c69cbda","yes",NA,"Josiah Parry [aut, cre] (ORCID:
+    <https://orcid.org/0000-0001-9910-865X>)","
     person(""Josiah"", ""Parry"", , ""josiah.parry@gmail.com"", role = c(""aut"", ""cre""),
            comment = c(ORCID = ""0000-0001-9910-865X""))",NA,"https://github.com/R-ArcGIS/arcpbf/issues",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-04-10 21:20:02 UTC","Fast processing of ArcGIS FeatureCollection protocol buffers in R.
-  It is designed to work seamlessly with 'httr2' and integrates with 'sf'. ","UTF-8",NA,"en",NA,NA,NA,NA,"Josiah Parry <josiah.parry@gmail.com>",NA,"2025-04-10 20:37:05 UTC; josiahparry",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.70","Process ArcGIS Protocol Buffer FeatureCollections",NA,"https://r.esri.com/arcpbf/, https://github.com/R-ArcGIS/arcpbf",NA,NA,NA,NA,NA,"2025-04-10",NA,"arcgislayers",NA,"arcgis",NA,NA,"10.32614/CRAN.package.arcpbf",12853
+  It is designed to work seamlessly with 'httr2' and integrates with 'sf'. ","UTF-8",NA,"en",NA,NA,NA,NA,"Josiah Parry <josiah.parry@gmail.com>",NA,"2025-04-10 20:37:05 UTC; josiahparry",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.70","Process ArcGIS Protocol Buffer FeatureCollections",NA,"https://r.esri.com/arcpbf/, https://github.com/R-ArcGIS/arcpbf",NA,NA,NA,NA,NA,"2025-04-10",NA,"arcgislayers",NA,"arcgis",NA,NA,"10.32614/CRAN.package.arcpbf",13882
 "astgrepr","0.1.1",NA,"R (>= 4.2)","checkmate, rrapply, stats, yaml",NA,"knitr, rmarkdown, rstudioapi, spelling, tinytest",NA,"MIT + file LICENSE",NA,NA,NA,NA,"94a1531bbe0feab6c4002a65df58d763","yes",NA,"Etienne Bacher [aut, cre, cph]","
     person(given = ""Etienne"",
            family = ""Bacher"",
@@ -62,9 +67,9 @@ https://developers.arcgis.com/r-bridge/api-reference/arcgisutils/",NA,NA,NA,NA,N
            email = ""etienne.bacher@protonmail.com"")",NA,"https://github.com/etiennebacher/astgrepr/issues",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-06-07 23:30:13 UTC","Parsing R code is key to build tools such as linters and stylers.
     This package provides a binding to the 'Rust' crate 'ast-grep' so that one
     can parse and explore R code.","UTF-8",NA,"en-US",NA,NA,NA,NA,"Etienne Bacher <etienne.bacher@protonmail.com>",NA,"2025-06-07 14:01:36 UTC; etienne",NA,NA,NA,"Cargo (Rust's package manager), rustc (>= 1.78.0)","Parse and Manipulate R Code","Package","https://github.com/etiennebacher/astgrepr,
-https://astgrepr.etiennebacher.com/",NA,"knitr",NA,NA,NA,"2025-06-07",NA,"flir",NA,NA,NA,NA,"10.32614/CRAN.package.astgrepr",591
-"awdb","0.1.2",NA,"R (>= 4.2)","cli, httr2, rlang (>= 1.1.0), sf",NA,NA,NA,"MIT + file LICENSE",NA,NA,NA,NA,"9b9f62ac3b33c4e8f6860d7f78eb0d8c","yes",NA,"Kenneth Blake Vernon [aut, cre, cph]
-    (<https://orcid.org/0000-0003-0098-5092>)","
+https://astgrepr.etiennebacher.com/",NA,"knitr",NA,NA,NA,"2025-06-07",NA,"flir",NA,NA,NA,NA,"10.32614/CRAN.package.astgrepr",1026
+"awdb","0.1.2",NA,"R (>= 4.2)","cli, httr2, rlang (>= 1.1.0), sf",NA,NA,NA,"MIT + file LICENSE",NA,NA,NA,NA,"9b9f62ac3b33c4e8f6860d7f78eb0d8c","yes",NA,"Kenneth Blake Vernon [aut, cre, cph] (ORCID:
+    <https://orcid.org/0000-0003-0098-5092>)","
     person(""Kenneth Blake"", ""Vernon"", , 
            ""kenneth.b.vernon@gmail.com"", 
            role = c(""aut"", ""cre"", ""cph""),
@@ -74,19 +79,19 @@ https://astgrepr.etiennebacher.com/",NA,"knitr",NA,NA,NA,"2025-06-07",NA,"flir",
     forecast, reference-data, and metadata. The package is extremely light 
     weight, with 'Rust' via 'extendr' doing most of the heavy lifting to 
     deserialize and flatten deeply nested 'JSON' responses. The AWDB can be 
-    found at <https://wcc.sc.egov.usda.gov/awdbRestApi/swagger-ui/index.html>.","UTF-8",NA,NA,"true",NA,NA,NA,"Kenneth Blake Vernon <kenneth.b.vernon@gmail.com>",NA,"2025-04-14 20:10:30 UTC; kenne",NA,NA,NA,"Cargo (Rust's package manager), rustc","Query the USDA NWCC Air and Water Database REST API",NA,"https://github.com/kbvernon/awdb, https://kbvernon.github.io/awdb/",NA,NA,NA,NA,NA,"2025-04-14",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.awdb",986
-"b64","0.1.6",NA,"R (>= 4.2)",NA,NA,"blob, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"da6ea140dfc08b3d54132a36eca6c817","yes",NA,"Josiah Parry [aut, cre] (ORCID:
+    found at <https://wcc.sc.egov.usda.gov/awdbRestApi/swagger-ui/index.html>.","UTF-8",NA,NA,"true",NA,NA,NA,"Kenneth Blake Vernon <kenneth.b.vernon@gmail.com>",NA,"2025-04-14 20:10:30 UTC; kenne",NA,NA,NA,"Cargo (Rust's package manager), rustc","Query the USDA NWCC Air and Water Database REST API",NA,"https://github.com/kbvernon/awdb, https://kbvernon.github.io/awdb/",NA,NA,NA,NA,NA,"2025-04-14",NA,NA,NA,NA,NA,"2025-08-25","10.32614/CRAN.package.awdb",1243
+"b64","0.1.7",NA,"R (>= 4.2)",NA,NA,"blob, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"cbe9e9b8f69a440c6d441256992a8adf","yes",NA,"Josiah Parry [aut, cre] (ORCID:
     <https://orcid.org/0000-0001-9910-865X>),
   Etienne Bacher [ctb] (ORCID: <https://orcid.org/0000-0002-9271-5075>)","c(
     person(""Josiah"", ""Parry"", , ""josiah.parry@gmail.com"", role = c(""aut"", ""cre""),
            comment = c(ORCID = ""0000-0001-9910-865X"")),
     person(""Etienne"", ""Bacher"", email = ""etienne.bacher@protonmail.com"", role = ""ctb"",
-           comment = c(ORCID = ""0000-0002-9271-5075"")))",NA,"https://github.com/extendr/b64/issues",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-05-19 18:30:05 UTC","Provides a fast, lightweight, and vectorized base 64 engine
+           comment = c(ORCID = ""0000-0002-9271-5075"")))",NA,"https://github.com/extendr/b64/issues",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-07-14 16:30:06 UTC","Provides a fast, lightweight, and vectorized base 64 engine
     to encode and decode character and raw vectors as well as files stored
     on disk. Common base 64 alphabets are supported out of the box
     including the standard, URL-safe, bcrypt, crypt, 'BinHex', and
     IMAP-modified UTF-7 alphabets. Custom engines can be created to
-    support unique base 64 encoding and decoding needs.","UTF-8",NA,"en",NA,NA,NA,NA,"Josiah Parry <josiah.parry@gmail.com>",NA,"2025-05-19 18:11:38 UTC; josiahparry",NA,NA,NA,"Cargo (Rust's package manager), rustc","Fast and Vectorized Base 64 Engine",NA,"https://extendr.github.io/b64/, https://github.com/extendr/b64",NA,NA,NA,NA,NA,"2025-05-19",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.b64",37475
+    support unique base 64 encoding and decoding needs.","UTF-8",NA,"en",NA,NA,NA,NA,"Josiah Parry <josiah.parry@gmail.com>",NA,"2025-07-14 16:06:04 UTC; josiahparry",NA,NA,NA,"Cargo (Rust's package manager), rustc, xz","Fast and Vectorized Base 64 Engine",NA,"https://extendr.github.io/b64/, https://github.com/extendr/b64",NA,NA,NA,NA,NA,"2025-07-14",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.b64",39951
 "ciflyr","0.1.1",NA,"R (>= 4.2)",NA,NA,"testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"cf90e39bfcd68ffd8122be6bcd948f80","yes",NA,"Marcel Wienöbst [aut, cre, cph],
   Sebastian Weichwald [aut],
   Leonard Henckel [aut],
@@ -100,8 +105,54 @@ https://astgrepr.etiennebacher.com/",NA,"knitr",NA,NA,NA,"2025-06-07",NA,"flir",
     tables are used to encode and customize the reachability algorithm to typical
     causal and probabilistic reasoning tasks such as finding d-connected nodes or
     more advanced applications. For more information, see Wienöbst, Weichwald and
-    Henckel (2025) <doi:10.48550/arXiv.2506.15758>.","UTF-8",NA,NA,NA,NA,NA,NA,"Marcel Wienöbst <marcel.wienoebst@gmx.de>",NA,"2025-06-24 10:25:15 UTC; marcel",NA,NA,NA,"Cargo (Rust's package manager), rustc","Reachability-Based Primitives for Graphical Causal Inference",NA,"https://cifly.pages.dev/, https://github.com/mwien/CIfly",NA,NA,NA,NA,NA,"2025-07-03",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.ciflyr",119
-"fcl","0.1.4",NA,"R (>= 4.2)","xts, ymd",NA,"testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"e5272842afb96ff3aa58520d73e785b2","yes",NA,"Xianying Tan [aut, cre] (<https://orcid.org/0000-0002-6072-3521>),
+    Henckel (2025) <doi:10.48550/arXiv.2506.15758>.","UTF-8",NA,NA,NA,NA,NA,NA,"Marcel Wienöbst <marcel.wienoebst@gmx.de>",NA,"2025-06-24 10:25:15 UTC; marcel",NA,NA,NA,"Cargo (Rust's package manager), rustc","Reachability-Based Primitives for Graphical Causal Inference",NA,"https://cifly.pages.dev/, https://github.com/mwien/CIfly",NA,NA,NA,NA,NA,"2025-07-03",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.ciflyr",370
+"datefixR","2.0.0",NA,"R (>= 4.2)","lifecycle, rlang",NA,"DT, future, future.apply, htmltools, knitr, parsedate,
+pkgbuild, png, readr, readxl, rmarkdown, shiny, shinytest2,
+spelling, testthat (>= 3.0.0), withr",NA,"GPL (>= 3)",NA,NA,NA,NA,"cbb7cc9b98dcf77f852e2bd4efd4f706","yes",NA,"Nathan Constantine-Cooke [aut, cre] (ORCID:
+    <https://orcid.org/0000-0002-4437-8713>),
+  Jonathan Kitt [ctb, trl],
+  Antonio J. Pérez-Luque [ctb, trl] (ORCID:
+    <https://orcid.org/0000-0002-1747-0469>),
+  Daniel Possenriede [ctb, trl] (ORCID:
+    <https://orcid.org/0000-0002-6738-9845>),
+  Michal Lauer [ctb, trl],
+  Kaique dos S. Alves [rev] (ORCID:
+    <https://orcid.org/0000-0001-9187-0252>),
+  Al-Ahmadgaid B. Asaad [rev] (ORCID:
+    <https://orcid.org/0000-0003-3784-8593>),
+  Anatoly Tsyplenkov [ctb, trl] (ORCID:
+    <https://orcid.org/0000-0003-4144-8402>),
+  Chitra M. Saraswati [ctb, trl] (ORCID:
+    <https://orcid.org/0000-0002-8159-0414>)","c(
+    person(""Nathan"", ""Constantine-Cooke"", , ""nathan.constantine-cooke@ed.ac.uk"", role = c(""aut"", ""cre""),
+           comment = c(ORCID = ""0000-0002-4437-8713"")),
+    person(""Jonathan"", ""Kitt"", , ""jonathan.kitt@protonmail.com"", role = c(""ctb"", ""trl"")),
+    person(""Antonio J."", ""Pérez-Luque"", , ""ajpelu@gmail.com"", role = c(""ctb"", ""trl""),
+           comment = c(ORCID = ""0000-0002-1747-0469"")),
+    person(""Daniel"", ""Possenriede"", , ""possenriede+r@gmail.com"", role = c(""ctb"", ""trl""),
+           comment = c(ORCID = ""0000-0002-6738-9845"")),
+    person(""Michal"", ""Lauer"", , ""michal.lauer.25@gmail.com"", role = c(""ctb"", ""trl"")),
+    person(""Kaique dos S."", ""Alves"", , ""kaiquedsalves@gmail.com"", role = ""rev"",
+           comment = c(ORCID = ""0000-0001-9187-0252"")),
+    person(""Al-Ahmadgaid B."", ""Asaad"", , ""alahmadgaid@gmail.com"", role = ""rev"",
+           comment = c(ORCID = ""0000-0003-3784-8593"")),
+    person(""Anatoly"", ""Tsyplenkov"", , ""atsyplenkov@gmail.com"", role = c(""ctb"", ""trl""),
+           comment = c(ORCID = ""0000-0003-4144-8402"")),
+    person(""Chitra M."", ""Saraswati"", , ""chitra.m.saraswati@gmail.com"", role = c(""ctb"", ""trl""),
+           comment = c(ORCID = ""0000-0002-8159-0414""))
+  )",NA,"https://github.com/ropensci/datefixR/issues",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-08-22 10:50:08 UTC","There are many different formats dates are commonly
+    represented with: the order of day, month, or year can differ,
+    different separators (""-"", ""/"", or whitespace) can be used, months can
+    be numerical, names, or abbreviations and year given as two digits or
+    four. 'datefixR' takes dates in all these different formats and
+    converts them to R's built-in date class. If 'datefixR' cannot
+    standardize a date, such as because it is too malformed, then the user
+    is told which date cannot be standardized and the corresponding ID for
+    the row. 'datefixR' also allows the imputation of missing days and
+    months with user-controlled behavior.","UTF-8",NA,"en-US","true",NA,NA,NA,"Nathan Constantine-Cooke <nathan.constantine-cooke@ed.ac.uk>",NA,"2025-08-22 10:32:39 UTC; nconsta2",NA,NA,NA,"Cargo (Rust's package manager), rustc","Standardize Dates in Different Formats or with Missing Data",NA,"https://docs.ropensci.org/datefixR/,
+https://github.com/ropensci/datefixR",NA,"knitr",NA,NA,NA,"2025-08-22",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.datefixR",14045
+"fcl","0.1.4",NA,"R (>= 4.2)","xts, ymd",NA,"testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"e5272842afb96ff3aa58520d73e785b2","yes",NA,"Xianying Tan [aut, cre] (ORCID:
+    <https://orcid.org/0000-0002-6072-3521>),
   Raymon Mina [ctb] (find_root.rs, xirr.rs),
   The authors of the dependency Rust crates [ctb] (see inst/AUTHORS file
     for details)","c(
@@ -121,12 +172,13 @@ https://astgrepr.etiennebacher.com/",NA,"knitr",NA,NA,NA,"2025-06-07",NA,"flir",
     to be efficient and accurate for financial analysis and computation. The methods
     used in this package are based on the following references:
     <https://en.wikipedia.org/wiki/Modified_Dietz_method>,
-    <https://en.wikipedia.org/wiki/Time-weighted_return>.","UTF-8",NA,NA,NA,NA,NA,NA,"Xianying Tan <shrektan@126.com>",NA,"2025-04-15 08:10:12 UTC; shrektan",NA,NA,NA,"Cargo (Rust's package manager), rustc","A Financial Calculator",NA,"https://github.com/shrektan/fcl, https://shrektan.github.io/fcl/",NA,NA,NA,NA,NA,"2025-04-15",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.fcl",169683
+    <https://en.wikipedia.org/wiki/Time-weighted_return>.","UTF-8",NA,NA,NA,NA,NA,NA,"Xianying Tan <shrektan@126.com>",NA,"2025-04-15 08:10:12 UTC; shrektan",NA,NA,NA,"Cargo (Rust's package manager), rustc","A Financial Calculator",NA,"https://github.com/shrektan/fcl, https://shrektan.github.io/fcl/",NA,NA,NA,NA,NA,"2025-04-15",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.fcl",201291
 "fio","0.1.6",NA,"R (>= 4.2)","cli, clipr, emoji, fs, miniUI, readxl, rlang, shiny, Rdpack (>
 2.3.1), R6",NA,"knitr, rmarkdown, spelling, microbenchmark, leontief,
-ggplot2, writexl, callr, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"6976416771c65d9e1e655f5e840652f8","yes",NA,"Alberson da Silva Miranda [aut, cre, cph]
-    (<https://orcid.org/0000-0001-9252-4175>),
-  Celso Bissoli Sessa [dtc] (<https://orcid.org/0000-0001-7616-0244>)","c(
+ggplot2, writexl, callr, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"6976416771c65d9e1e655f5e840652f8","yes",NA,"Alberson da Silva Miranda [aut, cre, cph] (ORCID:
+    <https://orcid.org/0000-0001-9252-4175>),
+  Celso Bissoli Sessa [dtc] (ORCID:
+    <https://orcid.org/0000-0001-7616-0244>)","c(
   person(
     given = ""Alberson"",
     family = ""da Silva Miranda"",
@@ -146,8 +198,8 @@ ggplot2, writexl, callr, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,N
   analysis. It leverages the 'R6' class for clean, memory-efficient
   object-oriented programming. Furthermore, all linear algebra computations are
   implemented in 'Rust' to achieve highly optimized performance.","UTF-8",NA,"en-US","true",NA,NA,NA,"Alberson da Silva Miranda <albersonmiranda@hotmail.com>",NA,"2025-04-05 13:50:51 UTC; albersonmiranda","Rdpack",NA,NA,"Cargo (Rust's package manager), rustc >= 1.77, xz","Friendly Input-Output Analysis",NA,"https://albersonmiranda.github.io/fio/,
-https://github.com/albersonmiranda/fio",NA,"knitr",NA,NA,NA,"2025-04-06",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.fio",18772
-"heck","0.1.5",NA,"R (>= 4.2)",NA,NA,"spelling, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"b0cc92f8951f730647e3784bdf5c7789","yes",NA,"Josiah Parry [aut] (<https://orcid.org/0000-0001-9910-865X>),
+https://github.com/albersonmiranda/fio",NA,"knitr",NA,NA,NA,"2025-04-06",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.fio",50483
+"heck","0.1.5",NA,"R (>= 4.2)",NA,NA,"spelling, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"b0cc92f8951f730647e3784bdf5c7789","yes",NA,"Josiah Parry [aut] (ORCID: <https://orcid.org/0000-0001-9910-865X>),
   Dyfan Jones [cre]","c(
     person(""Josiah"", ""Parry"", , ""josiah.parry@gmail.com"", role = c(""aut""),
            comment = c(ORCID = ""0000-0001-9910-865X"")),
@@ -155,7 +207,7 @@ https://github.com/albersonmiranda/fio",NA,"knitr",NA,NA,NA,"2025-04-06",NA,NA,N
   )",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-04-17 16:00:05 UTC","Provides a case conversion between common cases like CamelCase and 
     snake_case. Using the 'rust crate heck' <https://github.com/withoutboats/heck>
     as the backend for a highly performant case conversion for 'R'.","UTF-8",NA,"en-US",NA,NA,NA,NA,"Dyfan Jones <dyfan.r.jones@gmail.com>",NA,"2025-04-17 10:01:52 UTC; dyfanjones",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.56.0","Highly Performant String Case Converter","Package","https://github.com/DyfanJones/heck,
-https://dyfanjones.r-universe.dev/heck",NA,NA,NA,NA,NA,"2025-04-17",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.heck",4203
+https://dyfanjones.r-universe.dev/heck",NA,NA,NA,NA,NA,"2025-04-17",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.heck",4851
 "orbweaver","0.18.2",NA,"R (>= 4.2.0)","glue, methods, rlang",NA,"testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"d86255623ac6619558d9121c6fce339d","yes",NA,"ixpantia, SRL [cph],
   Andres Quintero [aut, cre],
   The authors of the dependency Rust crates [ctb] (see inst/AUTHORS file
@@ -168,7 +220,7 @@ https://dyfanjones.r-universe.dev/heck",NA,NA,NA,NA,NA,"2025-04-17",NA,NA,NA,NA,
     its high-performance methods for filtering, joining, and mutating
     data. Ensures that mutations and changes to the graph are performed in
     place, streamlining your workflow for optimal productivity.","UTF-8",NA,NA,NA,NA,NA,NA,"Andres Quintero <andres@ixpantia.com>",NA,"2025-04-21 15:21:23 UTC; andres",NA,NA,NA,"Cargo (Rust's package manager) >= 1.70, rustc >=
-1.70","Fast and Efficient Graph Data Structures",NA,"https://github.com/ixpantia/orbweaver-r",NA,NA,NA,NA,NA,"2025-04-28",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.orbweaver",2746
+1.70","Fast and Efficient Graph Data Structures",NA,"https://github.com/ixpantia/orbweaver-r",NA,NA,NA,NA,NA,"2025-04-28",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.orbweaver",3418
 "rbm25","0.0.4",NA,"R (>= 4.2)","R6",NA,"testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"4413a75f72262581dbeaa6913650e271","yes",NA,"David Zimmermann-Kollenda [aut, cre],
   Michael Barlow [aut] (bm25 Rust library),
   Authors of the dependency Rust crates [aut] (see AUTHORS file)","c(
@@ -179,11 +231,13 @@ https://dyfanjones.r-universe.dev/heck",NA,NA,NA,NA,NA,"2025-04-17",NA,NA,NA,NA,
     BM25 is a ranking function used by search engines to rank matching documents according to their relevance to a user's search query.
     This package provides a light wrapper around the 'BM25' 'rust' crate for Okapi BM25 text search.
     For more information, see Robertson et al. (1994) <https://trec.nist.gov/pubs/trec3/t3_proceedings.html>.","UTF-8",NA,NA,NA,NA,NA,NA,"David Zimmermann-Kollenda <david_j_zimmermann@hotmail.com>",NA,"2025-04-14 20:23:31 UTC; david",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.71.1","A Light Wrapper Around the 'BM25' 'Rust' Crate for Okapi BM25
-Text Search",NA,"https://davzim.github.io/rbm25/, https://github.com/DavZim/rbm25/",NA,NA,NA,NA,NA,"2025-04-14",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.rbm25",1215
-"rshift","3.1.2",NA,"R (>= 4.2)","grid, tibble, dplyr, ggplot2",NA,"R.rsp",NA,"MIT + file LICENSE",NA,NA,NA,NA,"e0fb14cddcb846aba6b49ce93bc2f2f8","yes",NA,"Alex H. Room [aut, cre, cph] (<https://orcid.org/0000-0002-5314-2331>),
-  Felipe Franco-Gaviria [ctb, fnd]
-    (<https://orcid.org/0000-0003-4799-1457>),
-  Dunia H. Urrego [ctb, fnd] (<https://orcid.org/0000-0001-7938-5529>),
+Text Search",NA,"https://davzim.github.io/rbm25/, https://github.com/DavZim/rbm25/",NA,NA,NA,NA,NA,"2025-04-14",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.rbm25",1455
+"rshift","3.1.2",NA,"R (>= 4.2)","grid, tibble, dplyr, ggplot2",NA,"R.rsp",NA,"MIT + file LICENSE",NA,NA,NA,NA,"e0fb14cddcb846aba6b49ce93bc2f2f8","yes",NA,"Alex H. Room [aut, cre, cph] (ORCID:
+    <https://orcid.org/0000-0002-5314-2331>),
+  Felipe Franco-Gaviria [ctb, fnd] (ORCID:
+    <https://orcid.org/0000-0003-4799-1457>),
+  Dunia H. Urrego [ctb, fnd] (ORCID:
+    <https://orcid.org/0000-0001-7938-5529>),
   The authors of the dependency Rust crates [ctb] (see inst/AUTHORS file
     for details)","c(person(""Alex H."", ""Room"",
                     role = c(""aut"", ""cre"", ""cph""),
@@ -205,7 +259,7 @@ Text Search",NA,"https://davzim.github.io/rbm25/, https://github.com/DavZim/rbm2
     Hellinger_trans from Numerical Ecology, Legendre & Legendre (ISBN 9780444538680)
     rolling_autoc from Liu, Gao & Wang (2018) <doi:10.1016/j.scitotenv.2018.06.276>
     Sample data sets lake_data & lake_RSI processed from Bush, Silman & Urrego (2004) <doi:10.1126/science.1090795>
-    Sample data set January_PDO from NOAA: <https://www.ncei.noaa.gov/access/monitoring/pdo/>.","UTF-8",NA,NA,"true",NA,NA,NA,"Alex H. Room <alexhroom+cran@protonmail.com>",NA,"2025-04-06 18:15:25 UTC; alexhroom",NA,NA,NA,"rustc & cargo if building from source","Paleoecology Functions for Regime Shift Analysis","Package","https://github.com/alexhroom/rshift",NA,"R.rsp",NA,NA,NA,"2025-04-06",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.rshift",21221
+    Sample data set January_PDO from NOAA: <https://www.ncei.noaa.gov/access/monitoring/pdo/>.","UTF-8",NA,NA,"true",NA,NA,NA,"Alex H. Room <alexhroom+cran@protonmail.com>",NA,"2025-04-06 18:15:25 UTC; alexhroom",NA,NA,NA,"rustc & cargo if building from source","Paleoecology Functions for Regime Shift Analysis","Package","https://github.com/alexhroom/rshift",NA,"R.rsp",NA,NA,NA,"2025-04-06",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.rshift",52992
 "rtiktoken","0.0.7",NA,"R (>= 4.2)",NA,NA,"testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"c88ab27a5ac69ef36ce5ca4b31a7f1fb","yes",NA,"David Zimmermann-Kollenda [aut, cre],
   Roger Zurawicki [aut] (tiktoken-rs Rust library),
   Authors of the dependent Rust crates [aut] (see AUTHORS file)","c(
@@ -214,7 +268,12 @@ Text Search",NA,"https://davzim.github.io/rbm25/, https://github.com/DavZim/rbm2
     person(""Authors of the dependent Rust crates"", role = ""aut"", comment = ""see AUTHORS file"")
   )",NA,"https://github.com/DavZim/rtiktoken/issues",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-04-14 22:50:02 UTC","A thin wrapper around the tiktoken-rs crate, allowing to encode text into Byte-Pair-Encoding (BPE) tokens and decode tokens back to text. This is useful to understand how Large Language Models (LLMs) perceive text. ","UTF-8",NA,NA,NA,NA,NA,NA,"David Zimmermann-Kollenda <david_j_zimmermann@hotmail.com>",NA,"2025-04-14 20:20:47 UTC; david",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.65.0","A Byte-Pair-Encoding (BPE) Tokenizer for OpenAI's Large Language
 Models",NA,"https://davzim.github.io/rtiktoken/,
-https://github.com/DavZim/rtiktoken/",NA,NA,NA,NA,NA,"2025-04-14",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.rtiktoken",3123
+https://github.com/DavZim/rtiktoken/",NA,NA,NA,NA,NA,"2025-04-14",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.rtiktoken",3407
+"socratadata","0.1.0",NA,"R (>= 4.2)","cli, httr2, rlang (>= 1.1.0), sf, tibble",NA,"glue, httptest2, rmarkdown, testthat (>= 3.0.0)",NA,"GPL (>= 3)",NA,NA,NA,NA,"adc20e195e7fc37fcb823cff45c71fb6","yes",NA,"Ryan Zomorrodi [aut, cre]","
+    person(""Ryan"", ""Zomorrodi"", , ""rzomor2@uic.edu"", role = c(""aut"", ""cre""))",NA,"https://github.com/ryanzomorrodi/socratadata/issues",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-07-29 10:00:02 UTC","Provides an interface to search, read, query, and retrieve metadata for 
+    datasets hosted on 'Socrata' open data portals. Supports all 'Socrata' data types, 
+    including spatial data returned as 'sf' objects. ","UTF-8",NA,NA,NA,NA,NA,NA,"Ryan Zomorrodi <rzomor2@uic.edu>",NA,"2025-07-22 21:07:53 UTC; user",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.65.0","Explore Socrata Data with Ease",NA,"https://ryanzomorrodi.github.io/socratadata/,
+https://github.com/ryanzomorrodi/socratadata",NA,NA,NA,NA,NA,"2025-07-29",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.socratadata",206
 "SQLFormatteR","0.0.2",NA,"R (>= 4.2)","assertthat",NA,"covr (>= 3.6.4), docopt (>= 0.7.1), git2r (>= 0.35.0),
 jsonlite (>= 1.8.9), lintr (>= 3.1.2), optparse (>= 1.7.5),
 precommit (>= 0.4.3), rextendr (>= 0.3.1), roxygen2 (>= 7.3.2),
@@ -228,7 +287,7 @@ styler (>= 1.10.3), testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"bb
     The package allows you to format 'SQL' code with customizable options,
     including indentation, case formatting, and more, ensuring your 'SQL'
     queries are clean, readable, and consistent.","UTF-8",NA,NA,NA,NA,NA,NA,"Morgan Durand <morgan@dataupsurge.com>",NA,"2025-04-13 06:17:04 UTC; morgan",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.78.0","Format SQL Queries",NA,"https://dataupsurge.github.io/SQLFormatteR/,
-https://github.com/dataupsurge/SQLFormatteR",NA,NA,NA,NA,NA,"2025-04-13",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.SQLFormatteR",1142
+https://github.com/dataupsurge/SQLFormatteR",NA,NA,NA,NA,NA,"2025-04-13",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.SQLFormatteR",1408
 "tergo","0.1.9",NA,"R (>= 4.2)",NA,NA,"rextendr (== 0.3.1), roxygen2, rstudioapi (>= 0.7), devtools,
 pkgdown, desc, knitr, rmarkdown, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"5e2d1b15b0c7810f688b1b96475be908","yes",NA,"Konrad Pagacz [aut, cre],
   Maciej Nasinski [ctb],
@@ -243,13 +302,14 @@ pkgdown, desc, knitr, rmarkdown, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA
     that allow users for styling their R code according to
     the 'tidyverse' style guide. The package uses a native
     Rust implementation to ensure the highest performance.
-    Learn more about 'tergo' at <https://rtergo.pagacz.io>.","UTF-8",NA,NA,NA,NA,NA,NA,"Konrad Pagacz <konrad.pagacz@gmail.com>",NA,"2025-04-11 16:02:33 UTC; kpagacz",NA,NA,NA,"Cargo (Rust's package manager), rustc","Style Your Code Fast",NA,"https://rtergo.pagacz.io, https://github.com/kpagacz/tergo",NA,"knitr",NA,NA,NA,"2025-04-11",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.tergo",1543
-"tomledit","0.1.1",NA,"R (>= 4.2)","rlang (>= 1.1.0)",NA,NA,NA,"MIT + file LICENSE",NA,NA,NA,NA,"78a86fbb82d549d766ed2a727c01386d","yes",NA,"Josiah Parry [aut, cre] (<https://orcid.org/0000-0001-9910-865X>)","
+    Learn more about 'tergo' at <https://rtergo.pagacz.io>.","UTF-8",NA,NA,NA,NA,NA,NA,"Konrad Pagacz <konrad.pagacz@gmail.com>",NA,"2025-04-11 16:02:33 UTC; kpagacz",NA,NA,NA,"Cargo (Rust's package manager), rustc","Style Your Code Fast",NA,"https://rtergo.pagacz.io, https://github.com/kpagacz/tergo",NA,"knitr",NA,NA,NA,"2025-04-11",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.tergo",1784
+"tomledit","0.1.1",NA,"R (>= 4.2)","rlang (>= 1.1.0)",NA,NA,NA,"MIT + file LICENSE",NA,NA,NA,NA,"78a86fbb82d549d766ed2a727c01386d","yes",NA,"Josiah Parry [aut, cre] (ORCID:
+    <https://orcid.org/0000-0001-9910-865X>)","
     person(""Josiah"", ""Parry"", , ""josiah.parry@gmail.com"", role = c(""aut"", ""cre""),
            comment = c(ORCID = ""0000-0001-9910-865X""))",NA,"https://github.com/extendr/tomledit/issues",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-04-10 03:40:01 UTC","A toolkit for working with 'TOML' files in R while preserving
     formatting, comments, and structure. 'tomledit' enables serialization of R
     objects such as lists, data.frames, numeric, logical, and date vectors.","UTF-8",NA,"en",NA,NA,NA,NA,"Josiah Parry <josiah.parry@gmail.com>",NA,"2025-04-10 03:23:33 UTC; josiahparry",NA,NA,NA,"Cargo (Rust's package manager), rustc","Parse, Read, and Edit 'TOML'",NA,"https://extendr.github.io/tomledit/,
-https://github.com/extendr/tomledit",NA,NA,NA,NA,NA,"2025-04-10",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.tomledit",1722
+https://github.com/extendr/tomledit",NA,NA,NA,NA,NA,"2025-04-10",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.tomledit",2310
 "unsum","0.2.0",NA,"R (>= 4.2.0)","cli, ggplot2, nanoparquet, readr, rlang, roundwork, scales,
 tibble, utils",NA,"devtools, knitr, rmarkdown, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"7a8e9e1d7eff053d544508622635d868","yes",NA,"Lukas Jung [aut, cre],
   Nathanael Larigaldie [ctb]","c(
@@ -259,8 +319,8 @@ tibble, utils",NA,"devtools, knitr, rmarkdown, testthat (>= 3.0.0)",NA,"MIT + fi
 'horns.R' 'generate.R' 'horns-analyze.R' 'plot.R'
 'read-write.R'",NA,NA,NA,NA,NA,"2025-06-19 19:20:02 UTC","Reconstructs all possible raw data that could have led to reported
     summary statistics. Provides a wrapper for the 'Rust' implementation of the
-    'CLOSURE' algorithm.","UTF-8",NA,NA,NA,NA,NA,NA,"Lukas Jung <jung-lukas@gmx.net>",NA,"2025-06-09 18:07:04 UTC; lukas",NA,NA,NA,"Cargo (Rust's package manager), rustc","Reconstruct Raw Data from Summary Statistics",NA,"https://github.com/lhdjung/unsum, https://lhdjung.github.io/unsum/",NA,"knitr",NA,NA,NA,"2025-06-19",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.unsum",198
-"xactonomial","1.0.3",NA,"R (>= 4.2)",NA,NA,"knitr, rmarkdown, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"2aaa8961982806f2ab5c3c774040fab9","yes",NA,"Michael C Sachs [aut, cre],
+    'CLOSURE' algorithm.","UTF-8",NA,NA,NA,NA,NA,NA,"Lukas Jung <jung-lukas@gmx.net>",NA,"2025-06-09 18:07:04 UTC; lukas",NA,NA,NA,"Cargo (Rust's package manager), rustc","Reconstruct Raw Data from Summary Statistics",NA,"https://github.com/lhdjung/unsum, https://lhdjung.github.io/unsum/",NA,"knitr",NA,NA,NA,"2025-06-19",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.unsum",425
+"xactonomial","1.2.0",NA,"R (>= 4.2)",NA,NA,"knitr, rmarkdown, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"92f68c37a9d5cfa9cbef15d5f2efb522","yes",NA,"Michael C Sachs [aut, cre],
   Michael P Fay [aut],
   Erin E Gabriel [aut],
   David B Dahl [ctb] ((rbindings.rs))","
@@ -273,9 +333,10 @@ tibble, utils",NA,"devtools, knitr, rmarkdown, testthat (>= 3.0.0)",NA,"MIT + fi
       person(given = ""Erin E"", 
              family = ""Gabriel"", role = c(""aut"")), 
       person(given = ""David B"", 
-              family = ""Dahl"", role = ""ctb"", comment = ""(rbindings.rs)""))",NA,"https://github.com/sachsmc/xactonomial/issues/",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-04-20","2025-04-28 13:50:02 UTC","We consider the problem where we observe k vectors (possibly of different lengths), each representing an independent multinomial random vector. For a given function that takes in the concatenated vector of multinomial probabilities and outputs a real number, this is a Monte Carlo estimation procedure of an exact p-value and confidence interval. The resulting inference is valid even in small samples, when the parameter is on the boundary, and when the function is not differentiable at the parameter value, all situations where asymptotic methods and the bootstrap would fail. For more details see Sachs, Fay, and Gabriel (2025) <doi:10.48550/arXiv.2406.19141>.","UTF-8",NA,NA,NA,NA,NA,NA,"Michael C Sachs <sachsmc@gmail.com>",NA,"2025-04-20 11:59:55 UTC; micsac",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.70","Inference for Functions of Multinomial Parameters","Package","https://sachsmc.github.io/xactonomial/",NA,"knitr",NA,NA,NA,"2025-04-28",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.xactonomial",369
-"ymd","0.1.5",NA,"R (>= 4.2)",NA,NA,"testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"37c26aabe0ef5af170c7905307ff0a21","yes",NA,"Xianying Tan [aut, cre] (<https://orcid.org/0000-0002-6072-3521>),
-  Hiroaki Yutani [ctb] (<https://orcid.org/0000-0002-3385-7233>,
+              family = ""Dahl"", role = ""ctb"", comment = ""(rbindings.rs)""))",NA,"https://github.com/sachsmc/xactonomial/issues/",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-07-30","2025-07-30 08:00:02 UTC","We consider the problem where we observe k vectors (possibly of different lengths), each representing an independent multinomial random vector. For a given function that takes in the concatenated vector of multinomial probabilities and outputs a real number, this is a Monte Carlo estimation procedure of an exact p-value and confidence interval. The resulting inference is valid even in small samples, when the parameter is on the boundary, and when the function is not differentiable at the parameter value, all situations where asymptotic methods and the bootstrap would fail. For more details see Sachs, Fay, and Gabriel (2025) <doi:10.48550/arXiv.2406.19141>.","UTF-8",NA,NA,NA,NA,NA,NA,"Michael C Sachs <sachsmc@gmail.com>",NA,"2025-07-30 07:38:50 UTC; micsac",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.70","Inference for Functions of Multinomial Parameters","Package","https://sachsmc.github.io/xactonomial/",NA,"knitr",NA,NA,NA,"2025-07-30",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.xactonomial",679
+"ymd","0.1.5",NA,"R (>= 4.2)",NA,NA,"testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"37c26aabe0ef5af170c7905307ff0a21","yes",NA,"Xianying Tan [aut, cre] (ORCID:
+    <https://orcid.org/0000-0002-6072-3521>),
+  Hiroaki Yutani [ctb] (ORCID: <https://orcid.org/0000-0002-3385-7233>,
     configure, configure.win, tools/configure.R),
   The authors of the dependency Rust crates [ctb] (see inst/AUTHORS file
     for details)","c(
@@ -288,11 +349,11 @@ tibble, utils",NA,"devtools, knitr, rmarkdown, testthat (>= 3.0.0)",NA,"MIT + fi
            comment = ""see inst/AUTHORS file for details"")
     )","true","https://github.com/shrektan/ymd/issues",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-04-15 05:50:03 UTC","Convert 'YMD' format number or string to Date efficiently, using Rust's
     standard library. It also provides helper functions to handle Date, e.g., quick
-    finding the beginning or end of the given period, adding months to Date, etc.","UTF-8",NA,NA,NA,NA,NA,NA,"Xianying Tan <shrektan@126.com>",NA,"2025-04-15 05:28:53 UTC; shrektan",NA,NA,NA,"Cargo (Rust's package manager), rustc, xz","Parse 'YMD' Format Number or String to Date",NA,"https://shrektan.github.io/ymd/, https://github.com/shrektan/ymd",NA,NA,NA,NA,NA,"2025-04-15",NA,"fcl",NA,"fastymd",NA,NA,"10.32614/CRAN.package.ymd",7696
+    finding the beginning or end of the given period, adding months to Date, etc.","UTF-8",NA,NA,NA,NA,NA,NA,"Xianying Tan <shrektan@126.com>",NA,"2025-04-15 05:28:53 UTC; shrektan",NA,NA,NA,"Cargo (Rust's package manager), rustc, xz","Parse 'YMD' Format Number or String to Date",NA,"https://shrektan.github.io/ymd/, https://github.com/shrektan/ymd",NA,NA,NA,NA,NA,"2025-04-15",NA,"fcl",NA,"fastymd",NA,NA,"10.32614/CRAN.package.ymd",7989
 "zoomerjoin","0.2.1",NA,"R (>= 4.2)","collapse, dplyr, tibble, tidyr",NA,"babynames, covr, fuzzyjoin, igraph, knitr, microbenchmark,
 profmem, purrr, rmarkdown, stringdist, testthat (>= 3.0.0),
 tidyverse, vdiffr",NA,"GPL (>= 3)",NA,NA,NA,NA,"e18c34ee88ef8cb592963a82b3204825","yes",NA,"Beniamino Green [aut, cre, cph],
-  Etienne Bacher [ctb] (<https://orcid.org/0000-0002-9271-5075>),
+  Etienne Bacher [ctb] (ORCID: <https://orcid.org/0000-0002-9271-5075>),
   The authors of the dependency Rust crates [ctb, cph] (see inst/AUTHORS
     file for details)","c(
     person(""Beniamino"", ""Green"", , ""beniamino.green@yale.edu"", role = c(""aut"", ""cre"", ""cph"")),
@@ -303,4 +364,4 @@ tidyverse, vdiffr",NA,"GPL (>= 3)",NA,NA,NA,NA,"e18c34ee88ef8cb592963a82b3204825
              comment = ""see inst/AUTHORS file for details"")
     )",NA,"https://github.com/beniaminogreen/zoomerjoin/issues",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-04-13 05:10:02 UTC","Empowers users to fuzzily-merge data frames with millions or tens of millions of rows in minutes with low memory usage.  The package uses the locality sensitive hashing algorithms developed by Datar, Immorlica, Indyk and Mirrokni (2004) <doi:10.1145/997817.997857>, and Broder (1998) <doi:10.1109/SEQUEN.1997.666900> to avoid having to compare every pair of records in each dataset, resulting in fuzzy-merges that finish in linear time.","UTF-8",NA,NA,"true","xz",NA,NA,"Beniamino Green <beniamino.green@yale.edu>",NA,"2025-04-13 04:54:58 UTC; beniamino",NA,NA,NA,"Cargo (>= 1.70) (Rust's package manager), rustc (>=
 1.70)","Superlatively Fast Fuzzy Joins",NA,"https://beniamino.org/zoomerjoin/,
-https://github.com/beniaminogreen/zoomerjoin",NA,"knitr",NA,NA,NA,"2025-04-13",NA,"highlightr",NA,NA,NA,NA,"10.32614/CRAN.package.zoomerjoin",3973
+https://github.com/beniaminogreen/zoomerjoin",NA,"knitr",NA,NA,NA,"2025-04-13",NA,"highlightr",NA,NA,NA,NA,"10.32614/CRAN.package.zoomerjoin",4295
