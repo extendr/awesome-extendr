@@ -10,7 +10,7 @@ arcgisplaces (>= 0.1.0), arcgisutils (>= 0.3.0), cli, httr2 (>=
     with spatial data and services from 'ArcGIS Online', 'ArcGIS
     Enterprise', and 'ArcGIS Platform'. Learn more about the 'arcgis'
     meta-package at <https://developers.arcgis.com/r-bridge/>.","UTF-8",NA,"en",NA,NA,NA,NA,"Josiah Parry <josiah.parry@gmail.com>",NA,"2025-04-23 20:02:10 UTC; josiahparry",NA,NA,NA,"Cargo (Rust's package manager), rustc","ArcGIS Location Services Meta-Package",NA,"https://github.com/R-ArcGIS/arcgis/,
-https://developers.arcgis.com/r-bridge/",NA,NA,NA,NA,NA,"2025-04-25",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.arcgis",9031
+https://developers.arcgis.com/r-bridge/",NA,NA,NA,NA,NA,"2025-04-25",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.arcgis",9243
 "arcgisgeocode","0.4.0",NA,"R (>= 4.2)","arcgisutils (>= 0.3.3.9000), cli, httr2 (>= 1.1.1), jsonify,
 RcppSimdJson (>= 0.1.13), rlang (>= 1.1.0), sf",NA,"data.table, dplyr, testthat (>= 3.0.0)",NA,"Apache License (>= 2)",NA,NA,NA,NA,"dad4937a3546881ac938166892e7637a","yes",NA,"Josiah Parry [aut, cre] (ORCID:
     <https://orcid.org/0000-0001-9910-865X>)","
@@ -24,7 +24,7 @@ RcppSimdJson (>= 0.1.13), rlang (>= 1.1.0), sf",NA,"data.table, dplyr, testthat 
     to custom locators or private 'ArcGIS World Geocoder' hosted on
     'ArcGIS Enterprise'. Learn more in the 'Geocode service' API reference
     <https://developers.arcgis.com/rest/geocode/api-reference/overview-world-geocoding-service.htm>.","UTF-8",NA,"en","true",NA,NA,NA,"Josiah Parry <josiah.parry@gmail.com>",NA,"2025-10-06 18:13:20 UTC; josiahparry",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.67, xz","A Robust Interface to ArcGIS 'Geocoding Services'",NA,"https://github.com/r-arcgis/arcgisgeocode,
-https://developers.arcgis.com/r-bridge/api-reference/arcgisgeocode",NA,NA,NA,NA,NA,"2025-10-07",NA,"arcgis",NA,NA,NA,NA,"10.32614/CRAN.package.arcgisgeocode",10119
+https://developers.arcgis.com/r-bridge/api-reference/arcgisgeocode",NA,NA,NA,NA,NA,"2025-10-07",NA,"arcgis",NA,NA,NA,NA,"10.32614/CRAN.package.arcgisgeocode",10229
 "arcgisplaces","0.1.2",NA,"R (>= 4.2)","arcgisutils (>= 0.3.0), cli, httr2 (>= 1.0.5), rlang, wk",NA,"sf",NA,"Apache License (>= 2)",NA,NA,NA,NA,"39cba530796530bd1ff5b951000a57b0","yes",NA,"Josiah Parry [aut, cre] (ORCID:
     <https://orcid.org/0000-0001-9910-865X>)","
     person(""Josiah"", ""Parry"", , ""josiah.parry@gmail.com"", role = c(""aut"", ""cre""),
@@ -34,7 +34,7 @@ https://developers.arcgis.com/r-bridge/api-reference/arcgisgeocode",NA,NA,NA,NA,
     information about each place. Query for places near a point, within a
     bounding box, filter based on categories, or provide search text.
     'arcgisplaces' integrates with 'sf' for out of the box compatibility
-    with other spatial libraries. Learn more in the 'Places service' API reference <https://developers.arcgis.com/rest/places/>.","UTF-8",NA,"en","true",NA,NA,NA,"Josiah Parry <josiah.parry@gmail.com>",NA,"2025-04-10 15:14:24 UTC; josiahparry",NA,NA,NA,"Cargo (Rust's package manager), rustc, OpenSSL","Search for POIs using ArcGIS 'Places Service'",NA,"https://github.com/R-ArcGIS/arcgisplaces, https://developers.arcgis.com/r-bridge/api-reference/arcgisplaces, https://r.esri.com/arcgisplaces",NA,NA,NA,NA,NA,"2025-04-10",NA,"arcgis",NA,NA,NA,NA,"10.32614/CRAN.package.arcgisplaces",116242
+    with other spatial libraries. Learn more in the 'Places service' API reference <https://developers.arcgis.com/rest/places/>.","UTF-8",NA,"en","true",NA,NA,NA,"Josiah Parry <josiah.parry@gmail.com>",NA,"2025-04-10 15:14:24 UTC; josiahparry",NA,NA,NA,"Cargo (Rust's package manager), rustc, OpenSSL","Search for POIs using ArcGIS 'Places Service'",NA,"https://github.com/R-ArcGIS/arcgisplaces, https://developers.arcgis.com/r-bridge/api-reference/arcgisplaces, https://r.esri.com/arcgisplaces",NA,NA,NA,NA,NA,"2025-04-10",NA,"arcgis",NA,NA,NA,NA,"10.32614/CRAN.package.arcgisplaces",120574
 "arcgisutils","0.4.0",NA,"R (>= 4.2)","cli, httr2 (>= 1.0.5), R6, RcppSimdJson, rlang, S7, sf, utils,
 yyjsonr, lifecycle",NA,"arcgisbinding, collapse (>= 2.0.0), data.table, jsonify,
 testthat (>= 3.0.0), curl, vctrs",NA,"Apache License (>= 2)",NA,NA,NA,NA,"5786e53ab913b0e936d748c59d920d50","yes",NA,"Josiah Parry [aut, cre] (ORCID:
@@ -58,12 +58,12 @@ testthat (>= 3.0.0), curl, vctrs",NA,"Apache License (>= 2)",NA,NA,NA,NA,"5786e5
     authorization can be done via 'arcgisbinding'. Installation
     instructions for 'arcgisbinding' can be found at
     <https://developers.arcgis.com/r-bridge/installation/>.","UTF-8",NA,"en",NA,NA,NA,NA,"Josiah Parry <josiah.parry@gmail.com>",NA,"2025-09-17 19:20:32 UTC; josiahparry",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.67, xz","R-ArcGIS Bridge Utility Functions",NA,"https://github.com/R-ArcGIS/arcgisutils,
-https://developers.arcgis.com/r-bridge/api-reference/arcgisutils/",NA,NA,NA,NA,NA,"2025-09-18",NA,"arcgis, arcgisgeocode, arcgislayers, arcgisplaces, arcpbf",NA,NA,NA,NA,"10.32614/CRAN.package.arcgisutils",23031
+https://developers.arcgis.com/r-bridge/api-reference/arcgisutils/",NA,NA,NA,NA,NA,"2025-09-18",NA,"arcgis, arcgisgeocode, arcgislayers, arcgisplaces, arcpbf",NA,NA,NA,NA,"10.32614/CRAN.package.arcgisutils",23252
 "arcpbf","0.2.0",NA,"R (>= 4.2)","arcgisutils (>= 0.3.0), rlang",NA,"httr2, sf, testthat (>= 3.0.0)",NA,"Apache License (>= 2)",NA,NA,NA,NA,"9d51e842966ab40e0c43e35a5252d0fc","yes",NA,"Josiah Parry [aut, cre] (ORCID:
     <https://orcid.org/0000-0001-9910-865X>)","
     person(""Josiah"", ""Parry"", , ""josiah.parry@gmail.com"", role = c(""aut"", ""cre""),
            comment = c(ORCID = ""0000-0001-9910-865X""))",NA,"https://github.com/R-ArcGIS/arcpbf/issues",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-10-22 16:50:02 UTC","Fast processing of ArcGIS FeatureCollection protocol buffers in R.
-  It is designed to work seamlessly with 'httr2' and integrates with 'sf'. ","UTF-8",NA,"en",NA,NA,NA,NA,"Josiah Parry <josiah.parry@gmail.com>",NA,"2025-10-22 16:27:57 UTC; josiahparry",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.70","Process ArcGIS Protocol Buffer FeatureCollections",NA,"https://r.esri.com/arcpbf/, https://github.com/R-ArcGIS/arcpbf",NA,NA,NA,NA,NA,"2025-10-22",NA,"arcgislayers",NA,"arcgis",NA,NA,"10.32614/CRAN.package.arcpbf",17243
+  It is designed to work seamlessly with 'httr2' and integrates with 'sf'. ","UTF-8",NA,"en",NA,NA,NA,NA,"Josiah Parry <josiah.parry@gmail.com>",NA,"2025-10-22 16:27:57 UTC; josiahparry",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.70","Process ArcGIS Protocol Buffer FeatureCollections",NA,"https://r.esri.com/arcpbf/, https://github.com/R-ArcGIS/arcpbf",NA,NA,NA,NA,NA,"2025-10-22",NA,"arcgislayers",NA,"arcgis",NA,NA,"10.32614/CRAN.package.arcpbf",17465
 "astgrepr","0.1.1",NA,"R (>= 4.2)","checkmate, rrapply, stats, yaml",NA,"knitr, rmarkdown, rstudioapi, spelling, tinytest",NA,"MIT + file LICENSE",NA,NA,NA,NA,"94a1531bbe0feab6c4002a65df58d763","yes",NA,"Etienne Bacher [aut, cre, cph]","
     person(given = ""Etienne"",
            family = ""Bacher"",
@@ -71,7 +71,7 @@ https://developers.arcgis.com/r-bridge/api-reference/arcgisutils/",NA,NA,NA,NA,N
            email = ""etienne.bacher@protonmail.com"")",NA,"https://github.com/etiennebacher/astgrepr/issues",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-06-07 23:30:13 UTC","Parsing R code is key to build tools such as linters and stylers.
     This package provides a binding to the 'Rust' crate 'ast-grep' so that one
     can parse and explore R code.","UTF-8",NA,"en-US",NA,NA,NA,NA,"Etienne Bacher <etienne.bacher@protonmail.com>",NA,"2025-06-07 14:01:36 UTC; etienne",NA,NA,NA,"Cargo (Rust's package manager), rustc (>= 1.78.0)","Parse and Manipulate R Code","Package","https://github.com/etiennebacher/astgrepr,
-https://astgrepr.etiennebacher.com/",NA,"knitr",NA,NA,NA,"2025-06-07",NA,"flir",NA,NA,NA,NA,"10.32614/CRAN.package.astgrepr",2091
+https://astgrepr.etiennebacher.com/",NA,"knitr",NA,NA,NA,"2025-06-07",NA,"flir",NA,NA,NA,NA,"10.32614/CRAN.package.astgrepr",2157
 "awdb","0.1.3",NA,"R (>= 4.2)","cli, httr2, rlang (>= 1.1.0), sf",NA,NA,NA,"MIT + file LICENSE",NA,NA,NA,NA,"1e8904ac866f33b0b52a71381bf0d53d","yes",NA,"Kenneth Blake Vernon [aut, cre, cph] (ORCID:
     <https://orcid.org/0000-0003-0098-5092>)","
     person(""Kenneth Blake"", ""Vernon"", , 
@@ -83,7 +83,7 @@ https://astgrepr.etiennebacher.com/",NA,"knitr",NA,NA,NA,"2025-06-07",NA,"flir",
     forecast, reference-data, and metadata. The package is extremely light 
     weight, with 'Rust' via 'extendr' doing most of the heavy lifting to 
     deserialize and flatten deeply nested 'JSON' responses. The AWDB can be 
-    found at <https://wcc.sc.egov.usda.gov/awdbRestApi/swagger-ui/index.html>.","UTF-8",NA,NA,"true",NA,NA,NA,"Kenneth Blake Vernon <kenneth.b.vernon@gmail.com>",NA,"2025-08-23 20:28:12 UTC; kenne",NA,NA,NA,"Cargo (Rust's package manager), rustc","Query the USDA NWCC Air and Water Database REST API",NA,"https://github.com/kbvernon/awdb, https://kbvernon.github.io/awdb/",NA,NA,NA,NA,NA,"2025-08-23",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.awdb",3040
+    found at <https://wcc.sc.egov.usda.gov/awdbRestApi/swagger-ui/index.html>.","UTF-8",NA,NA,"true",NA,NA,NA,"Kenneth Blake Vernon <kenneth.b.vernon@gmail.com>",NA,"2025-08-23 20:28:12 UTC; kenne",NA,NA,NA,"Cargo (Rust's package manager), rustc","Query the USDA NWCC Air and Water Database REST API",NA,"https://github.com/kbvernon/awdb, https://kbvernon.github.io/awdb/",NA,NA,NA,NA,NA,"2025-08-23",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.awdb",3175
 "b64","0.1.7",NA,"R (>= 4.2)",NA,NA,"blob, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"cbe9e9b8f69a440c6d441256992a8adf","yes",NA,"Josiah Parry [aut, cre] (ORCID:
     <https://orcid.org/0000-0001-9910-865X>),
   Etienne Bacher [ctb] (ORCID: <https://orcid.org/0000-0002-9271-5075>)","c(
@@ -95,7 +95,7 @@ https://astgrepr.etiennebacher.com/",NA,"knitr",NA,NA,NA,"2025-06-07",NA,"flir",
     on disk. Common base 64 alphabets are supported out of the box
     including the standard, URL-safe, bcrypt, crypt, 'BinHex', and
     IMAP-modified UTF-7 alphabets. Custom engines can be created to
-    support unique base 64 encoding and decoding needs.","UTF-8",NA,"en",NA,NA,NA,NA,"Josiah Parry <josiah.parry@gmail.com>",NA,"2025-07-14 16:06:04 UTC; josiahparry",NA,NA,NA,"Cargo (Rust's package manager), rustc, xz","Fast and Vectorized Base 64 Engine",NA,"https://extendr.github.io/b64/, https://github.com/extendr/b64",NA,NA,NA,NA,NA,"2025-07-14",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.b64",41403
+    support unique base 64 encoding and decoding needs.","UTF-8",NA,"en",NA,NA,NA,NA,"Josiah Parry <josiah.parry@gmail.com>",NA,"2025-07-14 16:06:04 UTC; josiahparry",NA,NA,NA,"Cargo (Rust's package manager), rustc, xz","Fast and Vectorized Base 64 Engine",NA,"https://extendr.github.io/b64/, https://github.com/extendr/b64",NA,NA,NA,NA,NA,"2025-07-14",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.b64",41483
 "caugi","0.3.1",NA,"R (>= 4.2)","data.table, fastmap, S7, stats, methods",NA,"bnlearn, dagitty, devtools, ggm, graph, gRbase, igraph,
 knitr, MASS, Matrix, rextendr, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"b706f9ea7f466c61d6f020e3f1a021f2","yes",NA,"Frederik Fabricius-Bjerre [aut, cre, cph],
   Johan Larsson [aut] (ORCID: <https://orcid.org/0000-0002-4029-5945>),
@@ -123,7 +123,7 @@ knitr, MASS, Matrix, rextendr, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,N
   )",NA,"https://github.com/frederikfabriciusbjerre/caugi/issues",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-12-04 12:00:02 UTC","Create, query, and modify causal graphs. 'caugi' (Causal Graph
     Interface) is a causality-first, high performance graph package that 
     provides a simple interface to build, structure, and examine causal 
-    relationships.","UTF-8",NA,NA,NA,NA,NA,NA,"Frederik Fabricius-Bjerre <frederik@fabriciusbjerre.dk>",NA,"2025-11-28 21:17:22 UTC; fabben",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.80.0, xz","Causal Graph Interface",NA,"https://frederikfabriciusbjerre.github.io/caugi/",NA,"knitr",NA,NA,NA,"2025-12-04",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.caugi",26
+    relationships.","UTF-8",NA,NA,NA,NA,NA,NA,"Frederik Fabricius-Bjerre <frederik@fabriciusbjerre.dk>",NA,"2025-11-28 21:17:22 UTC; fabben",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.80.0, xz","Causal Graph Interface",NA,"https://frederikfabriciusbjerre.github.io/caugi/",NA,"knitr",NA,NA,NA,"2025-12-04",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.caugi",135
 "ciflyr","0.1.2",NA,"R (>= 4.2)",NA,NA,"testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"bfe4f28b5cd91b0cb8521fc98f74c126","yes",NA,"Marcel Wienöbst [aut, cre, cph],
   Sebastian Weichwald [aut],
   Leonard Henckel [aut],
@@ -137,7 +137,7 @@ knitr, MASS, Matrix, rextendr, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,N
     tables are used to encode and customize the reachability algorithm to typical
     causal and probabilistic reasoning tasks such as finding d-connected nodes or
     more advanced applications. For more information, see Wienöbst, Weichwald and
-    Henckel (2025) <doi:10.48550/arXiv.2506.15758>.","UTF-8",NA,NA,NA,NA,NA,NA,"Marcel Wienöbst <marcel.wienoebst@gmx.de>",NA,"2025-10-05 15:45:44 UTC; marcel",NA,NA,NA,"Cargo (Rust's package manager), rustc","Reachability-Based Primitives for Graphical Causal Inference",NA,"https://cifly.dev/, https://github.com/mwien/CIfly",NA,NA,NA,NA,NA,"2025-10-05",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.ciflyr",999
+    Henckel (2025) <doi:10.48550/arXiv.2506.15758>.","UTF-8",NA,NA,NA,NA,NA,NA,"Marcel Wienöbst <marcel.wienoebst@gmx.de>",NA,"2025-10-05 15:45:44 UTC; marcel",NA,NA,NA,"Cargo (Rust's package manager), rustc","Reachability-Based Primitives for Graphical Causal Inference",NA,"https://cifly.dev/, https://github.com/mwien/CIfly",NA,NA,NA,NA,NA,"2025-10-05",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.ciflyr",1022
 "datefixR","2.0.0",NA,"R (>= 4.2)","lifecycle, rlang",NA,"DT, future, future.apply, htmltools, knitr, parsedate,
 pkgbuild, png, readr, readxl, rmarkdown, shiny, shinytest2,
 spelling, testthat (>= 3.0.0), withr",NA,"GPL (>= 3)",NA,NA,NA,NA,"cbb7cc9b98dcf77f852e2bd4efd4f706","yes",NA,"Nathan Constantine-Cooke [aut, cre] (ORCID:
@@ -182,7 +182,7 @@ spelling, testthat (>= 3.0.0), withr",NA,"GPL (>= 3)",NA,NA,NA,NA,"cbb7cc9b98dcf
     is told which date cannot be standardized and the corresponding ID for
     the row. 'datefixR' also allows the imputation of missing days and
     months with user-controlled behavior.","UTF-8",NA,"en-US","true",NA,NA,NA,"Nathan Constantine-Cooke <nathan.constantine-cooke@ed.ac.uk>",NA,"2025-08-22 10:32:39 UTC; nconsta2",NA,NA,NA,"Cargo (Rust's package manager), rustc","Standardize Dates in Different Formats or with Missing Data",NA,"https://docs.ropensci.org/datefixR/,
-https://github.com/ropensci/datefixR",NA,"knitr",NA,NA,NA,"2025-08-22",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.datefixR",16352
+https://github.com/ropensci/datefixR",NA,"knitr",NA,NA,NA,"2025-08-22",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.datefixR",16544
 "fcl","0.1.4",NA,"R (>= 4.2)","xts, ymd",NA,"testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"e5272842afb96ff3aa58520d73e785b2","yes",NA,"Xianying Tan [aut, cre] (ORCID:
     <https://orcid.org/0000-0002-6072-3521>),
   Raymon Mina [ctb] (find_root.rs, xirr.rs),
@@ -204,7 +204,7 @@ https://github.com/ropensci/datefixR",NA,"knitr",NA,NA,NA,"2025-08-22",NA,NA,NA,
     to be efficient and accurate for financial analysis and computation. The methods
     used in this package are based on the following references:
     <https://en.wikipedia.org/wiki/Modified_Dietz_method>,
-    <https://en.wikipedia.org/wiki/Time-weighted_return>.","UTF-8",NA,NA,NA,NA,NA,NA,"Xianying Tan <shrektan@126.com>",NA,"2025-04-15 08:10:12 UTC; shrektan",NA,NA,NA,"Cargo (Rust's package manager), rustc","A Financial Calculator",NA,"https://github.com/shrektan/fcl, https://shrektan.github.io/fcl/",NA,NA,NA,NA,NA,"2025-04-15",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.fcl",268785
+    <https://en.wikipedia.org/wiki/Time-weighted_return>.","UTF-8",NA,NA,NA,NA,NA,NA,"Xianying Tan <shrektan@126.com>",NA,"2025-04-15 08:10:12 UTC; shrektan",NA,NA,NA,"Cargo (Rust's package manager), rustc","A Financial Calculator",NA,"https://github.com/shrektan/fcl, https://shrektan.github.io/fcl/",NA,NA,NA,NA,NA,"2025-04-15",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.fcl",273063
 "fio","0.1.6",NA,"R (>= 4.2)","cli, clipr, emoji, fs, miniUI, readxl, rlang, shiny, Rdpack (>
 2.3.1), R6",NA,"knitr, rmarkdown, spelling, microbenchmark, leontief,
 ggplot2, writexl, callr, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"6976416771c65d9e1e655f5e840652f8","yes",NA,"Alberson da Silva Miranda [aut, cre, cph] (ORCID:
@@ -230,7 +230,7 @@ ggplot2, writexl, callr, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,N
   analysis. It leverages the 'R6' class for clean, memory-efficient
   object-oriented programming. Furthermore, all linear algebra computations are
   implemented in 'Rust' to achieve highly optimized performance.","UTF-8",NA,"en-US","true",NA,NA,NA,"Alberson da Silva Miranda <albersonmiranda@hotmail.com>",NA,"2025-04-05 13:50:51 UTC; albersonmiranda","Rdpack",NA,NA,"Cargo (Rust's package manager), rustc >= 1.77, xz","Friendly Input-Output Analysis",NA,"https://albersonmiranda.github.io/fio/,
-https://github.com/albersonmiranda/fio",NA,"knitr",NA,NA,NA,"2025-04-06",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.fio",118116
+https://github.com/albersonmiranda/fio",NA,"knitr",NA,NA,NA,"2025-04-06",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.fio",122413
 "gadjid","0.1.0",NA,"R (>= 4.2)",NA,NA,"testthat (>= 3.0.0)",NA,"MPL",NA,NA,NA,NA,"58e320dc28ed084931adbadc0e31d874","yes",NA,"Sebastian Weichwald [aut, cph, cre],
   Theo Würtzen [aut],
   Leonard Henckel [aut],
@@ -244,7 +244,7 @@ https://github.com/albersonmiranda/fio",NA,"knitr",NA,NA,NA,"2025-04-06",NA,NA,N
     optimal, and parent adjustment) count how often the respective adjustment
     identification strategy leads to causal inferences that are incorrect
     relative to a ground-truth graph when applied to a candidate graph instead.
-    See also Henckel, Würtzen, Weichwald (2024) <doi:10.48550/arXiv.2402.08616>.","UTF-8",NA,NA,NA,NA,NA,NA,"Sebastian Weichwald <sweichwald@math.ku.dk>",NA,"2025-08-25 08:44:52 UTC; qbr527",NA,NA,NA,"Cargo (Rust's package manager), rustc","Graph Adjustment Identification Distances for Causal Graphs",NA,"https://github.com/CausalDisco/gadjid",NA,NA,NA,NA,NA,"2025-08-29",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.gadjid",585
+    See also Henckel, Würtzen, Weichwald (2024) <doi:10.48550/arXiv.2402.08616>.","UTF-8",NA,NA,NA,NA,NA,NA,"Sebastian Weichwald <sweichwald@math.ku.dk>",NA,"2025-08-25 08:44:52 UTC; qbr527",NA,NA,NA,"Cargo (Rust's package manager), rustc","Graph Adjustment Identification Distances for Causal Graphs",NA,"https://github.com/CausalDisco/gadjid",NA,NA,NA,NA,NA,"2025-08-29",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.gadjid",618
 "h3o","0.3.0",NA,"R (>= 4.2)","rlang, stats, vctrs",NA,"sf, wk",NA,"MIT + file LICENSE",NA,NA,NA,NA,"9e338cb72ddb3a0b5bf0baeb577ae6d9","yes",NA,"Josiah Parry [aut, cph] (ORCID:
     <https://orcid.org/0000-0001-9910-865X>),
   Kenneth Vernon [cre, ctb] (ORCID:
@@ -253,7 +253,7 @@ https://github.com/albersonmiranda/fio",NA,"knitr",NA,NA,NA,"2025-04-06",NA,NA,N
            comment = c(ORCID = ""0000-0001-9910-865X"")),
     person(""Kenneth"", ""Vernon"", , ""kenneth.b.vernon@gmail.com"", role = c(""cre"", ""ctb""),
            comment = c(ORCID = ""0000-0003-0098-5092""))
-    )",NA,"https://github.com/extendr/h3o/issues",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-08-29 11:00:02 UTC","A dependency free interface to the H3 geospatial indexing system utilizing the Rust library 'h3o' <https://github.com/HydroniumLabs/h3o> via the 'extendr' library <https://github.com/extendr/extendr>.","UTF-8",NA,"en",NA,NA,NA,NA,"Kenneth Vernon <kenneth.b.vernon@gmail.com>",NA,"2025-08-24 15:17:51 UTC; kenne",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.75","H3 Geospatial Indexing System",NA,"https://github.com/extendr/h3o, https://extendr.rs/h3o/",NA,NA,NA,NA,NA,"2025-08-29",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.h3o",1631
+    )",NA,"https://github.com/extendr/h3o/issues",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-08-29 11:00:02 UTC","A dependency free interface to the H3 geospatial indexing system utilizing the Rust library 'h3o' <https://github.com/HydroniumLabs/h3o> via the 'extendr' library <https://github.com/extendr/extendr>.","UTF-8",NA,"en",NA,NA,NA,NA,"Kenneth Vernon <kenneth.b.vernon@gmail.com>",NA,"2025-08-24 15:17:51 UTC; kenne",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.75","H3 Geospatial Indexing System",NA,"https://github.com/extendr/h3o, https://extendr.rs/h3o/",NA,NA,NA,NA,NA,"2025-08-29",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.h3o",1766
 "heck","0.1.5",NA,"R (>= 4.2)",NA,NA,"spelling, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"b0cc92f8951f730647e3784bdf5c7789","yes",NA,"Josiah Parry [aut] (ORCID: <https://orcid.org/0000-0001-9910-865X>),
   Dyfan Jones [cre]","c(
     person(""Josiah"", ""Parry"", , ""josiah.parry@gmail.com"", role = c(""aut""),
@@ -262,7 +262,7 @@ https://github.com/albersonmiranda/fio",NA,"knitr",NA,NA,NA,"2025-04-06",NA,NA,N
   )",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-04-17 16:00:05 UTC","Provides a case conversion between common cases like CamelCase and 
     snake_case. Using the 'rust crate heck' <https://github.com/withoutboats/heck>
     as the backend for a highly performant case conversion for 'R'.","UTF-8",NA,"en-US",NA,NA,NA,NA,"Dyfan Jones <dyfan.r.jones@gmail.com>",NA,"2025-04-17 10:01:52 UTC; dyfanjones",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.56.0","Highly Performant String Case Converter","Package","https://github.com/DyfanJones/heck,
-https://dyfanjones.r-universe.dev/heck",NA,NA,NA,NA,NA,"2025-04-17",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.heck",6656
+https://dyfanjones.r-universe.dev/heck",NA,NA,NA,NA,NA,"2025-04-17",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.heck",6794
 "orbweaver","0.18.2",NA,"R (>= 4.2.0)","glue, methods, rlang",NA,"testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"d86255623ac6619558d9121c6fce339d","yes",NA,"ixpantia, SRL [cph],
   Andres Quintero [aut, cre],
   The authors of the dependency Rust crates [ctb] (see inst/AUTHORS file
@@ -275,7 +275,7 @@ https://dyfanjones.r-universe.dev/heck",NA,NA,NA,NA,NA,"2025-04-17",NA,NA,NA,NA,
     its high-performance methods for filtering, joining, and mutating
     data. Ensures that mutations and changes to the graph are performed in
     place, streamlining your workflow for optimal productivity.","UTF-8",NA,NA,NA,NA,NA,NA,"Andres Quintero <andres@ixpantia.com>",NA,"2025-04-21 15:21:23 UTC; andres",NA,NA,NA,"Cargo (Rust's package manager) >= 1.70, rustc >=
-1.70","Fast and Efficient Graph Data Structures",NA,"https://github.com/ixpantia/orbweaver-r",NA,NA,NA,NA,NA,"2025-04-28",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.orbweaver",5258
+1.70","Fast and Efficient Graph Data Structures",NA,"https://github.com/ixpantia/orbweaver-r",NA,NA,NA,NA,NA,"2025-04-28",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.orbweaver",5404
 "rbm25","0.0.4",NA,"R (>= 4.2)","R6",NA,"testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"4413a75f72262581dbeaa6913650e271","yes",NA,"David Zimmermann-Kollenda [aut, cre],
   Michael Barlow [aut] (bm25 Rust library),
   Authors of the dependency Rust crates [aut] (see AUTHORS file)","c(
@@ -286,11 +286,11 @@ https://dyfanjones.r-universe.dev/heck",NA,NA,NA,NA,NA,"2025-04-17",NA,NA,NA,NA,
     BM25 is a ranking function used by search engines to rank matching documents according to their relevance to a user's search query.
     This package provides a light wrapper around the 'BM25' 'rust' crate for Okapi BM25 text search.
     For more information, see Robertson et al. (1994) <https://trec.nist.gov/pubs/trec3/t3_proceedings.html>.","UTF-8",NA,NA,NA,NA,NA,NA,"David Zimmermann-Kollenda <david_j_zimmermann@hotmail.com>",NA,"2025-04-14 20:23:31 UTC; david",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.71.1","A Light Wrapper Around the 'BM25' 'Rust' Crate for Okapi BM25
-Text Search",NA,"https://davzim.github.io/rbm25/, https://github.com/DavZim/rbm25/",NA,NA,NA,NA,NA,"2025-04-14",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.rbm25",2024
+Text Search",NA,"https://davzim.github.io/rbm25/, https://github.com/DavZim/rbm25/",NA,NA,NA,NA,NA,"2025-04-14",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.rbm25",2055
 "RPesto","0.1.4",NA,"R (>= 4.2)","tidytree, treeio, ape",NA,NA,NA,"MIT + file LICENSE",NA,NA,NA,NA,"244ffb03c160e8dbc1b273a7bc6bbc32","yes",NA,"Bjørn Tore Kopperud [aut, cre],
   Sebastian Höhna [aut]","
     c(person(""Bj\u00F8rn Tore"", ""Kopperud"", role = c(""aut"", ""cre""), email = ""kopperud@protonmail.com""),
-      person(""Sebastian"", ""H\u00F6hna"", role = c(""aut"")))",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-11-26 14:00:02 UTC","Implements diversification analyses using the phylogenetic birth-death-shift model. It leverages belief propagation techniques to calculate branch-specific diversification rates, see Kopperud & Hoehna (2025) <doi:10.1093/sysbio/syaf041>.","UTF-8",NA,NA,NA,NA,NA,NA,"Bjørn Tore Kopperud <kopperud@protonmail.com>",NA,"2025-11-21 10:49:56 UTC; bkopper",NA,NA,NA,"Cargo (Rust's package manager), rustc","Phylogenetic Estimation of Shifts in the Tempo of Origination",NA,NA,NA,NA,NA,NA,NA,"2025-11-26",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.RPesto",87
+      person(""Sebastian"", ""H\u00F6hna"", role = c(""aut"")))",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-11-26 14:00:02 UTC","Implements diversification analyses using the phylogenetic birth-death-shift model. It leverages belief propagation techniques to calculate branch-specific diversification rates, see Kopperud & Hoehna (2025) <doi:10.1093/sysbio/syaf041>.","UTF-8",NA,NA,NA,NA,NA,NA,"Bjørn Tore Kopperud <kopperud@protonmail.com>",NA,"2025-11-21 10:49:56 UTC; bkopper",NA,NA,NA,"Cargo (Rust's package manager), rustc","Phylogenetic Estimation of Shifts in the Tempo of Origination",NA,NA,NA,NA,NA,NA,NA,"2025-11-26",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.RPesto",151
 "rshift","3.1.2",NA,"R (>= 4.2)","grid, tibble, dplyr, ggplot2",NA,"R.rsp",NA,"MIT + file LICENSE",NA,NA,NA,NA,"e0fb14cddcb846aba6b49ce93bc2f2f8","yes",NA,"Alex H. Room [aut, cre, cph] (ORCID:
     <https://orcid.org/0000-0002-5314-2331>),
   Felipe Franco-Gaviria [ctb, fnd] (ORCID:
@@ -318,7 +318,7 @@ Text Search",NA,"https://davzim.github.io/rbm25/, https://github.com/DavZim/rbm2
     Hellinger_trans from Numerical Ecology, Legendre & Legendre (ISBN 9780444538680)
     rolling_autoc from Liu, Gao & Wang (2018) <doi:10.1016/j.scitotenv.2018.06.276>
     Sample data sets lake_data & lake_RSI processed from Bush, Silman & Urrego (2004) <doi:10.1126/science.1090795>
-    Sample data set January_PDO from NOAA: <https://www.ncei.noaa.gov/access/monitoring/pdo/>.","UTF-8",NA,NA,"true",NA,NA,NA,"Alex H. Room <alexhroom+cran@protonmail.com>",NA,"2025-04-06 18:15:25 UTC; alexhroom",NA,NA,NA,"rustc & cargo if building from source","Paleoecology Functions for Regime Shift Analysis","Package","https://github.com/alexhroom/rshift",NA,"R.rsp",NA,NA,NA,"2025-04-06",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.rshift",120886
+    Sample data set January_PDO from NOAA: <https://www.ncei.noaa.gov/access/monitoring/pdo/>.","UTF-8",NA,NA,"true",NA,NA,NA,"Alex H. Room <alexhroom+cran@protonmail.com>",NA,"2025-04-06 18:15:25 UTC; alexhroom",NA,NA,NA,"rustc & cargo if building from source","Paleoecology Functions for Regime Shift Analysis","Package","https://github.com/alexhroom/rshift",NA,"R.rsp",NA,NA,NA,"2025-04-06",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.rshift",125194
 "rtiktoken","0.0.7",NA,"R (>= 4.2)",NA,NA,"testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"c88ab27a5ac69ef36ce5ca4b31a7f1fb","yes",NA,"David Zimmermann-Kollenda [aut, cre],
   Roger Zurawicki [aut] (tiktoken-rs Rust library),
   Authors of the dependent Rust crates [aut] (see AUTHORS file)","c(
@@ -327,12 +327,12 @@ Text Search",NA,"https://davzim.github.io/rbm25/, https://github.com/DavZim/rbm2
     person(""Authors of the dependent Rust crates"", role = ""aut"", comment = ""see AUTHORS file"")
   )",NA,"https://github.com/DavZim/rtiktoken/issues",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-04-14 22:50:02 UTC","A thin wrapper around the tiktoken-rs crate, allowing to encode text into Byte-Pair-Encoding (BPE) tokens and decode tokens back to text. This is useful to understand how Large Language Models (LLMs) perceive text. ","UTF-8",NA,NA,NA,NA,NA,NA,"David Zimmermann-Kollenda <david_j_zimmermann@hotmail.com>",NA,"2025-04-14 20:20:47 UTC; david",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.65.0","A Byte-Pair-Encoding (BPE) Tokenizer for OpenAI's Large Language
 Models",NA,"https://davzim.github.io/rtiktoken/,
-https://github.com/DavZim/rtiktoken/",NA,NA,NA,NA,NA,"2025-04-14",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.rtiktoken",4069
+https://github.com/DavZim/rtiktoken/",NA,NA,NA,NA,NA,"2025-04-14",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.rtiktoken",4104
 "socratadata","0.1.1",NA,"R (>= 4.2)","cli, httr2, rlang (>= 1.1.0), sf, tibble",NA,"glue, httptest2, rmarkdown, testthat (>= 3.0.0)",NA,"GPL (>= 3)",NA,NA,NA,NA,"337803fa6ff6570f178d9eb321f30f68","yes",NA,"Ryan Zomorrodi [aut, cre]","
     person(""Ryan"", ""Zomorrodi"", , ""rzomor2@uic.edu"", role = c(""aut"", ""cre""))",NA,"https://github.com/ryanzomorrodi/socratadata/issues",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-10-06 16:50:02 UTC","Provides an interface to search, read, query, and retrieve metadata for 
     datasets hosted on 'Socrata' open data portals. Supports all 'Socrata' data types, 
     including spatial data returned as 'sf' objects. ","UTF-8",NA,NA,NA,NA,NA,NA,"Ryan Zomorrodi <rzomor2@uic.edu>",NA,"2025-10-06 16:23:41 UTC; user",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.65.0, xz","Explore Socrata Data with Ease",NA,"https://ryanzomorrodi.github.io/socratadata/,
-https://github.com/ryanzomorrodi/socratadata",NA,NA,NA,NA,NA,"2025-10-06",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.socratadata",872
+https://github.com/ryanzomorrodi/socratadata",NA,NA,NA,NA,NA,"2025-10-06",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.socratadata",906
 "SQLFormatteR","0.0.2",NA,"R (>= 4.2)","assertthat",NA,"covr (>= 3.6.4), docopt (>= 0.7.1), git2r (>= 0.35.0),
 jsonlite (>= 1.8.9), lintr (>= 3.1.2), optparse (>= 1.7.5),
 precommit (>= 0.4.3), rextendr (>= 0.3.1), roxygen2 (>= 7.3.2),
@@ -346,7 +346,7 @@ styler (>= 1.10.3), testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"bb
     The package allows you to format 'SQL' code with customizable options,
     including indentation, case formatting, and more, ensuring your 'SQL'
     queries are clean, readable, and consistent.","UTF-8",NA,NA,NA,NA,NA,NA,"Morgan Durand <morgan@dataupsurge.com>",NA,"2025-04-13 06:17:04 UTC; morgan",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.78.0","Format SQL Queries",NA,"https://dataupsurge.github.io/SQLFormatteR/,
-https://github.com/dataupsurge/SQLFormatteR",NA,NA,NA,NA,NA,"2025-04-13",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.SQLFormatteR",2051
+https://github.com/dataupsurge/SQLFormatteR",NA,NA,NA,NA,NA,"2025-04-13",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.SQLFormatteR",2080
 "tergo","0.1.9",NA,"R (>= 4.2)",NA,NA,"rextendr (== 0.3.1), roxygen2, rstudioapi (>= 0.7), devtools,
 pkgdown, desc, knitr, rmarkdown, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"5e2d1b15b0c7810f688b1b96475be908","yes",NA,"Konrad Pagacz [aut, cre],
   Maciej Nasinski [ctb],
@@ -361,7 +361,7 @@ pkgdown, desc, knitr, rmarkdown, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA
     that allow users for styling their R code according to
     the 'tidyverse' style guide. The package uses a native
     Rust implementation to ensure the highest performance.
-    Learn more about 'tergo' at <https://rtergo.pagacz.io>.","UTF-8",NA,NA,NA,NA,NA,NA,"Konrad Pagacz <konrad.pagacz@gmail.com>",NA,"2025-04-11 16:02:33 UTC; kpagacz",NA,NA,NA,"Cargo (Rust's package manager), rustc","Style Your Code Fast",NA,"https://rtergo.pagacz.io, https://github.com/kpagacz/tergo",NA,"knitr",NA,NA,NA,"2025-04-11",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.tergo",2327
+    Learn more about 'tergo' at <https://rtergo.pagacz.io>.","UTF-8",NA,NA,NA,NA,NA,NA,"Konrad Pagacz <konrad.pagacz@gmail.com>",NA,"2025-04-11 16:02:33 UTC; kpagacz",NA,NA,NA,"Cargo (Rust's package manager), rustc","Style Your Code Fast",NA,"https://rtergo.pagacz.io, https://github.com/kpagacz/tergo",NA,"knitr",NA,NA,NA,"2025-04-11",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.tergo",2357
 "tok","0.2.1",NA,"R (>= 4.2.0)","R6, cli",NA,"rmarkdown, testthat (>= 3.0.0), hfhub (>= 0.1.1), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"fb48a0a8261f42eee0e57e0731b446a4","yes",NA,"Daniel Falbel [aut, cre],
   Regouby Christophe [ctb],
   Posit [cph]","c(
@@ -372,14 +372,14 @@ pkgdown, desc, knitr, rmarkdown, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA
   Interfaces with the 'Hugging Face' tokenizers library to provide implementations
   of today's most used tokenizers such as the 'Byte-Pair Encoding' algorithm 
   <https://huggingface.co/docs/tokenizers/index>. It's extremely fast for both 
-  training new vocabularies and tokenizing texts.","UTF-8",NA,NA,NA,NA,NA,NA,"Daniel Falbel <daniel@posit.co>",NA,"2025-09-30 12:10:45 UTC; dfalbel",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.75","Fast Text Tokenization",NA,"https://github.com/mlverse/tok",NA,NA,NA,NA,NA,"2025-09-30",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.tok",69529
+  training new vocabularies and tokenizing texts.","UTF-8",NA,NA,NA,NA,NA,NA,"Daniel Falbel <daniel@posit.co>",NA,"2025-09-30 12:10:45 UTC; dfalbel",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.75","Fast Text Tokenization",NA,"https://github.com/mlverse/tok",NA,NA,NA,NA,NA,"2025-09-30",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.tok",73817
 "tomledit","0.1.1",NA,"R (>= 4.2)","rlang (>= 1.1.0)",NA,NA,NA,"MIT + file LICENSE",NA,NA,NA,NA,"78a86fbb82d549d766ed2a727c01386d","yes",NA,"Josiah Parry [aut, cre] (ORCID:
     <https://orcid.org/0000-0001-9910-865X>)","
     person(""Josiah"", ""Parry"", , ""josiah.parry@gmail.com"", role = c(""aut"", ""cre""),
            comment = c(ORCID = ""0000-0001-9910-865X""))",NA,"https://github.com/extendr/tomledit/issues",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-04-10 03:40:01 UTC","A toolkit for working with 'TOML' files in R while preserving
     formatting, comments, and structure. 'tomledit' enables serialization of R
     objects such as lists, data.frames, numeric, logical, and date vectors.","UTF-8",NA,"en",NA,NA,NA,NA,"Josiah Parry <josiah.parry@gmail.com>",NA,"2025-04-10 03:23:33 UTC; josiahparry",NA,NA,NA,"Cargo (Rust's package manager), rustc","Parse, Read, and Edit 'TOML'",NA,"https://extendr.github.io/tomledit/,
-https://github.com/extendr/tomledit",NA,NA,NA,NA,NA,"2025-04-10",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.tomledit",4124
+https://github.com/extendr/tomledit",NA,NA,NA,NA,NA,"2025-04-10",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.tomledit",4313
 "unsum","0.2.0",NA,"R (>= 4.2.0)","cli, ggplot2, nanoparquet, readr, rlang, roundwork, scales,
 tibble, utils",NA,"devtools, knitr, rmarkdown, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"7a8e9e1d7eff053d544508622635d868","yes",NA,"Lukas Jung [aut, cre],
   Nathanael Larigaldie [ctb]","c(
@@ -389,7 +389,7 @@ tibble, utils",NA,"devtools, knitr, rmarkdown, testthat (>= 3.0.0)",NA,"MIT + fi
 'horns.R' 'generate.R' 'horns-analyze.R' 'plot.R'
 'read-write.R'",NA,NA,NA,NA,NA,"2025-06-19 19:20:02 UTC","Reconstructs all possible raw data that could have led to reported
     summary statistics. Provides a wrapper for the 'Rust' implementation of the
-    'CLOSURE' algorithm.","UTF-8",NA,NA,NA,NA,NA,NA,"Lukas Jung <jung-lukas@gmx.net>",NA,"2025-06-09 18:07:04 UTC; lukas",NA,NA,NA,"Cargo (Rust's package manager), rustc","Reconstruct Raw Data from Summary Statistics",NA,"https://github.com/lhdjung/unsum, https://lhdjung.github.io/unsum/",NA,"knitr",NA,NA,NA,"2025-06-19",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.unsum",884
+    'CLOSURE' algorithm.","UTF-8",NA,NA,NA,NA,NA,NA,"Lukas Jung <jung-lukas@gmx.net>",NA,"2025-06-09 18:07:04 UTC; lukas",NA,NA,NA,"Cargo (Rust's package manager), rustc","Reconstruct Raw Data from Summary Statistics",NA,"https://github.com/lhdjung/unsum, https://lhdjung.github.io/unsum/",NA,"knitr",NA,NA,NA,"2025-06-19",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.unsum",914
 "xactonomial","1.2.0",NA,"R (>= 4.2)",NA,NA,"knitr, rmarkdown, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"92f68c37a9d5cfa9cbef15d5f2efb522","yes",NA,"Michael C Sachs [aut, cre],
   Michael P Fay [aut],
   Erin E Gabriel [aut],
@@ -403,7 +403,24 @@ tibble, utils",NA,"devtools, knitr, rmarkdown, testthat (>= 3.0.0)",NA,"MIT + fi
       person(given = ""Erin E"", 
              family = ""Gabriel"", role = c(""aut"")), 
       person(given = ""David B"", 
-              family = ""Dahl"", role = ""ctb"", comment = ""(rbindings.rs)""))",NA,"https://github.com/sachsmc/xactonomial/issues/",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-07-30","2025-07-30 08:00:02 UTC","We consider the problem where we observe k vectors (possibly of different lengths), each representing an independent multinomial random vector. For a given function that takes in the concatenated vector of multinomial probabilities and outputs a real number, this is a Monte Carlo estimation procedure of an exact p-value and confidence interval. The resulting inference is valid even in small samples, when the parameter is on the boundary, and when the function is not differentiable at the parameter value, all situations where asymptotic methods and the bootstrap would fail. For more details see Sachs, Fay, and Gabriel (2025) <doi:10.48550/arXiv.2406.19141>.","UTF-8",NA,NA,NA,NA,NA,NA,"Michael C Sachs <sachsmc@gmail.com>",NA,"2025-07-30 07:38:50 UTC; micsac",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.70","Inference for Functions of Multinomial Parameters","Package","https://sachsmc.github.io/xactonomial/",NA,"knitr",NA,NA,NA,"2025-07-30",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.xactonomial",1202
+              family = ""Dahl"", role = ""ctb"", comment = ""(rbindings.rs)""))",NA,"https://github.com/sachsmc/xactonomial/issues/",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-07-30","2025-07-30 08:00:02 UTC","We consider the problem where we observe k vectors (possibly of different lengths), each representing an independent multinomial random vector. For a given function that takes in the concatenated vector of multinomial probabilities and outputs a real number, this is a Monte Carlo estimation procedure of an exact p-value and confidence interval. The resulting inference is valid even in small samples, when the parameter is on the boundary, and when the function is not differentiable at the parameter value, all situations where asymptotic methods and the bootstrap would fail. For more details see Sachs, Fay, and Gabriel (2025) <doi:10.48550/arXiv.2406.19141>.","UTF-8",NA,NA,NA,NA,NA,NA,"Michael C Sachs <sachsmc@gmail.com>",NA,"2025-07-30 07:38:50 UTC; micsac",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.70","Inference for Functions of Multinomial Parameters","Package","https://sachsmc.github.io/xactonomial/",NA,"knitr",NA,NA,NA,"2025-07-30",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.xactonomial",1236
+"yaml12","0.1.0",NA,"R (>= 4.2)",NA,NA,"jsonlite, knitr, rmarkdown, testthat (>= 3.0.0), waldo, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"b8267aa53b360269fab732d8d2c04e90","yes",NA,"Tomasz Kalinowski [aut, cre],
+  Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>),
+  Authors of the dependency Rust crates [cph] (See inst/AUTHORS and
+    LICENSE.note for vendored Rust dependency authors and licenses.)","c(
+    person(""Tomasz"", ""Kalinowski"", , ""tomasz@posit.co"", role = c(""aut"", ""cre"")),
+    person(""Posit Software, PBC"", role = c(""cph"", ""fnd""),
+           comment = c(ROR = ""03wc8by49"")),
+    person(""Authors of the dependency Rust crates"", role = ""cph"",
+           comment = ""See inst/AUTHORS and LICENSE.note for vendored Rust dependency authors and licenses."")
+  )",NA,"https://github.com/posit-dev/r-yaml12/issues",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-12-11 15:50:02 UTC","A fast, correct, safe, and ergonomic 'YAML' 1.2 parser and
+    generator written in 'Rust'. Convert between 'YAML' and simple 'R'
+    objects with full support for multi-document streams, tags, anchors,
+    and aliases. Offers opt-in handlers for custom tag behavior and
+    round-trips common 'R' data structures. Implements the 'YAML' 1.2.2
+    specification from the 'YAML' Language Development Team (2021)
+    <https://yaml.org/spec/1.2.2/>. Proudly supported by Posit.","UTF-8",NA,NA,NA,NA,NA,NA,"Tomasz Kalinowski <tomasz@posit.co>",NA,"2025-12-03 19:56:58 UTC; tomasz",NA,NA,NA,"Cargo (Rust's package manager), rustc >= 1.70.0, xz","Fast 'YAML' 1.2 Parser and Formatter",NA,"https://posit-dev.github.io/r-yaml12/,
+https://github.com/posit-dev/r-yaml12",NA,"knitr",NA,NA,NA,"2025-12-11",NA,NA,NA,NA,NA,NA,"10.32614/CRAN.package.yaml12",34
 "ymd","0.1.5",NA,"R (>= 4.2)",NA,NA,"testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"37c26aabe0ef5af170c7905307ff0a21","yes",NA,"Xianying Tan [aut, cre] (ORCID:
     <https://orcid.org/0000-0002-6072-3521>),
   Hiroaki Yutani [ctb] (ORCID: <https://orcid.org/0000-0002-3385-7233>,
@@ -419,7 +436,7 @@ tibble, utils",NA,"devtools, knitr, rmarkdown, testthat (>= 3.0.0)",NA,"MIT + fi
            comment = ""see inst/AUTHORS file for details"")
     )","true","https://github.com/shrektan/ymd/issues",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-04-15 05:50:03 UTC","Convert 'YMD' format number or string to Date efficiently, using Rust's
     standard library. It also provides helper functions to handle Date, e.g., quick
-    finding the beginning or end of the given period, adding months to Date, etc.","UTF-8",NA,NA,NA,NA,NA,NA,"Xianying Tan <shrektan@126.com>",NA,"2025-04-15 05:28:53 UTC; shrektan",NA,NA,NA,"Cargo (Rust's package manager), rustc, xz","Parse 'YMD' Format Number or String to Date",NA,"https://shrektan.github.io/ymd/, https://github.com/shrektan/ymd",NA,NA,NA,NA,NA,"2025-04-15",NA,"fcl",NA,"fastymd",NA,NA,"10.32614/CRAN.package.ymd",8698
+    finding the beginning or end of the given period, adding months to Date, etc.","UTF-8",NA,NA,NA,NA,NA,NA,"Xianying Tan <shrektan@126.com>",NA,"2025-04-15 05:28:53 UTC; shrektan",NA,NA,NA,"Cargo (Rust's package manager), rustc, xz","Parse 'YMD' Format Number or String to Date",NA,"https://shrektan.github.io/ymd/, https://github.com/shrektan/ymd",NA,NA,NA,NA,NA,"2025-04-15",NA,"fcl",NA,"fastymd",NA,NA,"10.32614/CRAN.package.ymd",8731
 "zoomerjoin","0.2.1",NA,"R (>= 4.2)","collapse, dplyr, tibble, tidyr",NA,"babynames, covr, fuzzyjoin, igraph, knitr, microbenchmark,
 profmem, purrr, rmarkdown, stringdist, testthat (>= 3.0.0),
 tidyverse, vdiffr",NA,"GPL (>= 3)",NA,NA,NA,NA,"e18c34ee88ef8cb592963a82b3204825","yes",NA,"Beniamino Green [aut, cre, cph],
@@ -434,4 +451,4 @@ tidyverse, vdiffr",NA,"GPL (>= 3)",NA,NA,NA,NA,"e18c34ee88ef8cb592963a82b3204825
              comment = ""see inst/AUTHORS file for details"")
     )",NA,"https://github.com/beniaminogreen/zoomerjoin/issues",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2025-04-13 05:10:02 UTC","Empowers users to fuzzily-merge data frames with millions or tens of millions of rows in minutes with low memory usage.  The package uses the locality sensitive hashing algorithms developed by Datar, Immorlica, Indyk and Mirrokni (2004) <doi:10.1145/997817.997857>, and Broder (1998) <doi:10.1109/SEQUEN.1997.666900> to avoid having to compare every pair of records in each dataset, resulting in fuzzy-merges that finish in linear time.","UTF-8",NA,NA,"true","xz",NA,NA,"Beniamino Green <beniamino.green@yale.edu>",NA,"2025-04-13 04:54:58 UTC; beniamino",NA,NA,NA,"Cargo (>= 1.70) (Rust's package manager), rustc (>=
 1.70)","Superlatively Fast Fuzzy Joins",NA,"https://beniamino.org/zoomerjoin/,
-https://github.com/beniaminogreen/zoomerjoin",NA,"knitr",NA,NA,NA,"2025-04-13",NA,"highlightr",NA,NA,NA,NA,"10.32614/CRAN.package.zoomerjoin",5055
+https://github.com/beniaminogreen/zoomerjoin",NA,"knitr",NA,NA,NA,"2025-04-13",NA,"highlightr",NA,NA,NA,NA,"10.32614/CRAN.package.zoomerjoin",5089
