@@ -4,6 +4,9 @@ on:
   schedule:
     # Every Sunday at midnight UTC
     - cron: '0 0 * * 0'
+  push:
+    paths:
+      - 'path-to-description.txt'
   workflow_dispatch: # Allow manual trigger
 
 permissions:
