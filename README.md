@@ -2,8 +2,8 @@
 
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Static
-Badge](https://img.shields.io/badge/Last_Updated-2026--01--15-276DC2)
-![Static Badge](https://img.shields.io/badge/No_of_Packages-35-276DC2)
+Badge](https://img.shields.io/badge/Last_Updated-2026--01--16-276DC2)
+![Static Badge](https://img.shields.io/badge/Packages-35-276DC2)
 ![Static
 Badge](https://img.shields.io/badge/CRAN_Downloads-997615-276DC2)
 
@@ -469,6 +469,6 @@ to this list automatically. If your package is *not* on CRAN but you
 want to promote it here, you will need to submit a PR. The process is
 very simple. All you need to do is add a new line to
 `path-to-description.txt` with the path to your package DESCRIPTION in a
-remote repository with a valid connection (on GitHub, this requires
-linking to the raw content of DESCRIPTION). You can test that the path
-works using `read.dcf(url(<path>))`.
+remote repository. The path must be a valid connection (on GitHub, this
+requires linking to the raw content of DESCRIPTION). You can test that
+the path works using `read.dcf(url(<path>))`.
