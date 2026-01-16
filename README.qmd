@@ -34,7 +34,7 @@ use_badge <- function(label, message) {
 cat(
   "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
   use_badge("Last Updated", format(Sys.Date())),
-  use_badge("No of Packages", nrow(pkgs)),
+  use_badge("Packages", nrow(pkgs)),
   use_badge("CRAN Downloads", total_downloads),
   sep = "\n"
 )
@@ -97,6 +97,6 @@ If your package is on CRAN, you do not need to worry. It will be added to this
 list automatically. If your package is *not* on CRAN but you want to promote it 
 here, you will need to submit a PR. The process is very simple. All you need to
 do is add a new line to `path-to-description.txt` with the path to your package 
-DESCRIPTION in a remote repository with a valid connection (on GitHub, this 
-requires linking to the raw content of DESCRIPTION). You can test that the path
-works using `read.dcf(url(<path>))`.
+DESCRIPTION in a remote repository. The path must be a valid connection (on 
+GitHub, this requires linking to the raw content of DESCRIPTION). You can test 
+that the path works using `read.dcf(url(<path>))`.
