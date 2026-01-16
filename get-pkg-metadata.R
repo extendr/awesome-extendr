@@ -43,22 +43,11 @@ pkgs[
 pkgs <- pkgs[columns]
 
 # other packages ---------------------------------------------------------
-# packages nominated by PR
-description_paths <- strsplit(
-  readLines("path-to-description.txt"),
-  split = "\n"
-)
+other_pkgs <- NULL
 
 fields <- c("Package", "Title", "Authors@R", "Description", "URL")
 
-description_files <- lapply(
-  description_paths,
-  \(.x) as.data.frame(read.dcf(url(.x), fields = fields))
-)
-
-other_pkgs <- do.call(rbind, description_files)
-
-# requires parsing person() and filtering to role = aut
+# parsing functions for persons
 parse_author <- function(x) {
   authors <- eval(parse(text = x))
   authors <- Filter(\(z) "aut" %in% z$role, authors)
@@ -68,12 +57,39 @@ parse_author <- function(x) {
 
 parse_authors <- function(x) vapply(x, parse_author, character(1))
 
-other_pkgs <- transform(
-  other_pkgs,
-  Author = parse_authors(`Authors@R`)
-)
+# packages nominated by PR
+description_paths <- readLines("path-to-description.txt")
+description_paths <- description_paths[nzchar(trimws(description_paths))]
 
-other_pkgs <- other_pkgs[columns]
+if (length(description_paths) > 0) {
+  # read DESCRIPTIONs
+  description_files <- lapply(
+    description_paths,
+    \(.x) as.data.frame(read.dcf(url(.x), fields = fields))
+  )
+
+  other_pkgs <- do.call(rbind, description_files)
+
+  # remove packages from path-to-description.txt that are now on CRAN
+  now_on_cran <- other_pkgs[["Package"]] %in% pkgs[["Package"]]
+
+  if (any(now_on_cran)) {
+    updated_paths <- description_paths[!now_on_cran]
+    writeLines(updated_paths, "path-to-description.txt")
+    other_pkgs <- other_pkgs[!now_on_cran, ]
+  }
+
+  # parse persons and filter to role = aut
+  if (nrow(other_pkgs) > 0) {
+    other_pkgs <- transform(
+      other_pkgs,
+      Author = parse_authors(`Authors@R`)
+    )
+    other_pkgs <- other_pkgs[columns]
+  } else {
+    other_pkgs <- NULL
+  }
+}
 
 # downloads --------------------------------------------------------------
 pkgs <- rbind(pkgs, other_pkgs)
