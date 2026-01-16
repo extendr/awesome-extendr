@@ -8,74 +8,15 @@ execute:
 ---
 
 ```{r}
-#| label: rust-pkgs
-# Get all Rust-powered packages
-pkgs <- subset(
-  tools::CRAN_package_db(),
-  grepl("rust", tolower(SystemRequirements))
-)
-
-# Now find all extendr-powered packages using the GitHub CRAN mirror. This
-# involves looking for Config/rextendr/version in DESCRIPTION, which isn't
-# copied over to CRAN, so not found in CRAN_package_db()
-description_files <- sprintf(
-  "https://cran.r-project.org/web/packages/%s/DESCRIPTION",
-  pkgs[["Package"]]
-)
-
-is_extendr <- vapply(
-  description_files,
-  \(.x) any(grepl("rextendr", tolower(readLines(.x)))),
-  logical(1),
-  USE.NAMES = FALSE
-)
-
-pkgs <- pkgs[is_extendr, ]
-
-pkgs <- subset(pkgs, Package != "rextendr")
-```
-
-```{r}
-#| label: arcgisplaces-urls
-pkgs[pkgs[["Package"]] == "arcgisplaces", "URL"] <- paste(
-  "https://github.com/R-ArcGIS/arcgisplaces",
-  "https://developers.arcgis.com/r-bridge/api-reference/arcgisplaces",
-  "https://r.esri.com/arcgisplaces",
-  sep = ", "
-)
-```
-
-```{r}
-#| label: downloads
-all_downloads <- cranlogs::cran_downloads(
-  pkgs[["Package"]],
-  from = "2023-01-01",
-  to = Sys.Date()
-)
-
-pkg_downloads <- subset(all_downloads, count > 0)
-
-pkg_downloads <- aggregate(
-  count ~ package,
-  data = pkg_downloads,
-  FUN = sum
-)
-
-names(pkg_downloads) <- c("Package", "Count")
-
-pkgs <- merge(pkgs, pkg_downloads, all.x = TRUE)
-
-write.csv(
-  pkgs,
-  "cran-pkgs.csv",
-  row.names = FALSE
-)
+#| label: get-metadata
+source("get-pkg-metadata.R", local = new.env())
+pkgs <- read.csv("extendr-pkgs.csv")
 ```
 
 ```{r}
 #| label: badges
 #| output: asis
-total_downloads <- sum(pkg_downloads[["Count"]])
+total_downloads <- sum(pkgs[["Count"]], na.rm = TRUE)
 
 use_badge <- function(label, message) {
   label <- gsub(" ", "_", label)
@@ -93,63 +34,18 @@ use_badge <- function(label, message) {
 cat(
   "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
   use_badge("Last Updated", format(Sys.Date())),
-  use_badge("Total Downloads", total_downloads),
+  use_badge("Packages", nrow(pkgs)),
+  use_badge("CRAN Downloads", total_downloads),
   sep = "\n"
 )
 ```
 
-A curated list of R packages that use [extendr](https://extendr.github.io/) and 
-are currently published on [CRAN](https://cran.r-project.org/).
+A curated list of R packages that use [extendr](https://extendr.github.io/). 
+Many but not all of these are published on [CRAN](https://cran.r-project.org/).
 
 ```{r}
 #| label: pkg-list
 #| output: asis
-Author <- vapply(
-  strsplit(pkgs[["Author"]], split = " \\["),
-  \(.x) .x[[1]],
-  character(1),
-  USE.NAMES = FALSE
-)
-
-# clean up url strings
-URL <- gsub("\\n", "", pkgs[["URL"]])
-URL <- gsub(",\\s*", ", ", URL)
-
-first_url <- vapply(
-  strsplit(URL, ","),
-  \(.x) .x[[1]],
-  character(1),
-  USE.NAMES = FALSE
-)
-
-Package <- ifelse(
-  is.na(first_url),
-  sprintf("<strong>%s</strong>", pkgs[["Package"]]),
-  sprintf("<a href='%s'><strong>%s</strong></a>", first_url, pkgs[["Package"]])
-)
-
-Title <- pkgs[["Title"]]
-
-# wrap urls in a-tags, so they render correctly in raw html
-URL <- gsub(
-  "(^|,\\s*)([^,]+)",
-  "\\1<a href='\\2'>\\2</a>",
-  URL,
-  perl = TRUE
-)
-
-# convert na to empty string
-URL <- ifelse(is.na(first_url), "", URL)
-
-Description <- gsub(
-  "<([^>]+)>",
-  "<a href='\\1'>\\1</a>",
-  pkgs[["Description"]],
-  perl = TRUE
-)
-
-Count <- pkgs[["Count"]]
-
 list_item_template <- paste(
   "<details>",
   "  <summary>%s: %s</summary>",
@@ -163,15 +59,29 @@ list_item_template <- paste(
   sep = "\n"
 )
 
-list_items <- sprintf(
-  list_item_template,
-  Package,
-  Title,
-  Author,
-  URL,
-  Description,
-  Count
-)
+list_items <- with(pkgs, {
+  Package <- ifelse(
+    is.na(URL),
+    sprintf("<strong>%s</strong>", Package),
+    sprintf("<a href='%s'><strong>%s</strong></a>", URL, Package)
+  )
+
+  URL <- ifelse(
+    is.na(URL),
+    "",
+    sprintf("<a href='%s'>%s</a>", URL, URL)
+  )
+
+  sprintf(
+    list_item_template,
+    Package,
+    Title,
+    Author,
+    URL,
+    Description,
+    Count
+  )
+})
 
 cat(
   "```{=html}",
@@ -180,3 +90,13 @@ cat(
   sep = "\n"
 )
 ```
+
+## Add your own package
+
+If your package is on CRAN, you do not need to worry. It will be added to this 
+list automatically. If your package is *not* on CRAN but you want to promote it 
+here, you will need to submit a PR. The process is very simple. All you need to
+do is add a new line to `path-to-description.txt` with the path to your package 
+DESCRIPTION in a remote repository. The path must be a valid connection (on 
+GitHub, this requires linking to the raw content of DESCRIPTION). You can test 
+that the path works using `read.dcf(url(<path>))`.
