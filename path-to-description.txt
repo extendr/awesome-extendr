@@ -1,2 +1,3 @@
 https://raw.githubusercontent.com/walkerke/spopt-r/main/DESCRIPTION
 https://raw.githubusercontent.com/brownag/geodensity/refs/heads/main/DESCRIPTION
+https://raw.githubusercontent.com/LAPKB/Pmetrics/refs/heads/main/DESCRIPTION
