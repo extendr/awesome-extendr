@@ -2,10 +2,10 @@
 
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Static
-Badge](https://img.shields.io/badge/Last_Updated-2026--05--31-276DC2)
-![Static Badge](https://img.shields.io/badge/Packages-47-276DC2)
+Badge](https://img.shields.io/badge/Last_Updated-2026--06--07-276DC2)
+![Static Badge](https://img.shields.io/badge/Packages-49-276DC2)
 ![Static
-Badge](https://img.shields.io/badge/CRAN_Downloads-1460403-276DC2)
+Badge](https://img.shields.io/badge/CRAN_Downloads-1467620-276DC2)
 
 A curated list of R packages that use
 [extendr](https://extendr.github.io/). Many but not all of these are
@@ -23,7 +23,22 @@ published on [CRAN](https://cran.r-project.org/).
     coordinates to cells, traversing the cell hierarchy, computing cell
     boundaries, and compacting/uncompacting cell sets. Powered by the
     'A5' 'Rust' crate via 'extendr'.</li>
-      <li><strong>Downloads:</strong> 1944</li>
+      <li><strong>Downloads:</strong> 2098</li>
+    </ul>
+</details>
+<details>
+  <summary><a href='https://yousa-mirage.github.io/r-ahocorasick/'><strong>ahocorasick</strong></a>: Fast Multi-Pattern String Matching with the 'Aho-Corasick'
+Algorithm</summary>
+    <ul>
+      <li><strong>Author:</strong> Hao Cheng</li>
+      <li><strong>URL:</strong> <a href='https://yousa-mirage.github.io/r-ahocorasick/'>https://yousa-mirage.github.io/r-ahocorasick/</a></li>
+      <li><strong>Description:</strong> Provide fast multi-pattern string matching for 'R' using the
+    'Aho-Corasick' algorithm, powered by the 'Rust' 'aho-corasick' crate. It
+    builds reusable automatons for detecting matches, counting matches, locating
+    character, extracting matched text, and replacing matches in character vectors.
+    For more details on the 'Aho-Corasick' algorithm, please see
+    Aho and Corasick (1975) <doi:10.1145/360825.360855>.</li>
+      <li><strong>Downloads:</strong> 64</li>
     </ul>
 </details>
 <details>
@@ -37,7 +52,7 @@ published on [CRAN](https://cran.r-project.org/).
     with spatial data and services from 'ArcGIS Online', 'ArcGIS
     Enterprise', and 'ArcGIS Platform'. Learn more about the 'arcgis'
     meta-package at <https://developers.arcgis.com/r-bridge/>.</li>
-      <li><strong>Downloads:</strong> 14225</li>
+      <li><strong>Downloads:</strong> 14378</li>
     </ul>
 </details>
 <details>
@@ -54,7 +69,7 @@ published on [CRAN](https://cran.r-project.org/).
     to custom locators or private 'ArcGIS World Geocoder' hosted on
     'ArcGIS Enterprise'. Learn more in the 'Geocode service' API reference
     <https://developers.arcgis.com/rest/geocode/api-reference/overview-world-geocoding-service.htm>.</li>
-      <li><strong>Downloads:</strong> 13250</li>
+      <li><strong>Downloads:</strong> 13360</li>
     </ul>
 </details>
 <details>
@@ -69,7 +84,7 @@ published on [CRAN](https://cran.r-project.org/).
     bounding box, filter based on categories, or provide search text.
     'arcgisplaces' integrates with 'sf' for out of the box compatibility
     with other spatial libraries. Learn more in the 'Places service' API reference <https://developers.arcgis.com/rest/places/>.</li>
-      <li><strong>Downloads:</strong> 193308</li>
+      <li><strong>Downloads:</strong> 193410</li>
     </ul>
 </details>
 <details>
@@ -85,7 +100,7 @@ published on [CRAN](https://cran.r-project.org/).
     authorization can be done via 'arcgisbinding'. Installation
     instructions for 'arcgisbinding' can be found at
     <https://developers.arcgis.com/r-bridge/installation/>.</li>
-      <li><strong>Downloads:</strong> 31190</li>
+      <li><strong>Downloads:</strong> 31513</li>
     </ul>
 </details>
 <details>
@@ -95,7 +110,7 @@ published on [CRAN](https://cran.r-project.org/).
       <li><strong>URL:</strong> <a href='https://r.esri.com/arcpbf/'>https://r.esri.com/arcpbf/</a></li>
       <li><strong>Description:</strong> Fast processing of ArcGIS FeatureCollection protocol buffers in R.
   It is designed to work seamlessly with 'httr2' and integrates with 'sf'. </li>
-      <li><strong>Downloads:</strong> 22859</li>
+      <li><strong>Downloads:</strong> 23072</li>
     </ul>
 </details>
 <details>
@@ -106,7 +121,7 @@ published on [CRAN](https://cran.r-project.org/).
       <li><strong>Description:</strong> Parsing R code is key to build tools such as linters and stylers.
     This package provides a binding to the 'Rust' crate 'ast-grep' so that one
     can parse and explore R code.</li>
-      <li><strong>Downloads:</strong> 4814</li>
+      <li><strong>Downloads:</strong> 4910</li>
     </ul>
 </details>
 <details>
@@ -121,7 +136,7 @@ published on [CRAN](https://cran.r-project.org/).
     weight, with 'Rust' via 'extendr' doing most of the heavy lifting to 
     deserialize and flatten deeply nested 'JSON' responses. The AWDB can be 
     found at <https://wcc.sc.egov.usda.gov/awdbRestApi/swagger-ui/index.html>.</li>
-      <li><strong>Downloads:</strong> 6336</li>
+      <li><strong>Downloads:</strong> 6436</li>
     </ul>
 </details>
 <details>
@@ -132,7 +147,7 @@ published on [CRAN](https://cran.r-project.org/).
       <li><strong>Description:</strong> Fast, dependency free, and vectorized base32 encoding and
     decoding. 'b32' supports the Crockford, Z, RFC 4648 lower, hex, and
     lower hex alphabets.</li>
-      <li><strong>Downloads:</strong> 979</li>
+      <li><strong>Downloads:</strong> 1015</li>
     </ul>
 </details>
 <details>
@@ -146,7 +161,7 @@ published on [CRAN](https://cran.r-project.org/).
     including the standard, URL-safe, bcrypt, crypt, 'BinHex', and
     IMAP-modified UTF-7 alphabets. Custom engines can be created to
     support unique base 64 encoding and decoding needs.</li>
-      <li><strong>Downloads:</strong> 43305</li>
+      <li><strong>Downloads:</strong> 43366</li>
     </ul>
 </details>
 <details>
@@ -158,7 +173,7 @@ published on [CRAN](https://cran.r-project.org/).
     Interface) is a causality-first, high performance graph package that
     provides a simple interface to build, structure, and examine causal
     relationships.</li>
-      <li><strong>Downloads:</strong> 9148</li>
+      <li><strong>Downloads:</strong> 9265</li>
     </ul>
 </details>
 <details>
@@ -172,7 +187,7 @@ published on [CRAN](https://cran.r-project.org/).
     causal and probabilistic reasoning tasks such as finding d-connected nodes or
     more advanced applications. For more information, see Wienöbst, Weichwald and
     Henckel (2025) <doi:10.48550/arXiv.2506.15758>.</li>
-      <li><strong>Downloads:</strong> 1967</li>
+      <li><strong>Downloads:</strong> 1998</li>
     </ul>
 </details>
 <details>
@@ -190,7 +205,7 @@ published on [CRAN](https://cran.r-project.org/).
     is told which date cannot be standardized and the corresponding ID for
     the row. 'datefixR' also allows the imputation of missing days and
     months with user-controlled behavior.</li>
-      <li><strong>Downloads:</strong> 20714</li>
+      <li><strong>Downloads:</strong> 20861</li>
     </ul>
 </details>
 <details>
@@ -205,7 +220,7 @@ Standardizer)</summary>
     probabilísticas entre strings. (Standardizes brazilian addresses using
     different criteria. Standardization methods include only basic string
     manipulation, not supporting probabilistic matches between strings.)</li>
-      <li><strong>Downloads:</strong> 70638</li>
+      <li><strong>Downloads:</strong> 70734</li>
     </ul>
 </details>
 <details>
@@ -218,7 +233,7 @@ Standardizer)</summary>
     diagram, relaxing the criterion that all interactions need to be
     represented. Diagrams may be fit with ellipses and circles via
     a wide range of inputs and can be visualized in numerous ways.</li>
-      <li><strong>Downloads:</strong> 184963</li>
+      <li><strong>Downloads:</strong> 187842</li>
     </ul>
 </details>
 <details>
@@ -232,7 +247,7 @@ Standardizer)</summary>
     tabular and spatial datasets. Returns serialized 'JSON' text, allowing 
     applications such as 'shiny' or web APIs to transfer data to 
     client-side 'JavaScript' libraries without additional encoding overhead.</li>
-      <li><strong>Downloads:</strong> 1084</li>
+      <li><strong>Downloads:</strong> 1114</li>
     </ul>
 </details>
 <details>
@@ -250,7 +265,7 @@ Standardizer)</summary>
     used in this package are based on the following references:
     <https://en.wikipedia.org/wiki/Modified_Dietz_method>,
     <https://en.wikipedia.org/wiki/Time-weighted_return>.</li>
-      <li><strong>Downloads:</strong> 351697</li>
+      <li><strong>Downloads:</strong> 351731</li>
     </ul>
 </details>
 <details>
@@ -262,7 +277,7 @@ Standardizer)</summary>
   user-friendly interfaces with high-performance computation. It provides tools
   for analyzing both single-region and multi-regional economic systems through a
   hybrid architecture that pairs R's accessibility with Rust's computational efficiency.</li>
-      <li><strong>Downloads:</strong> 194155</li>
+      <li><strong>Downloads:</strong> 194221</li>
     </ul>
 </details>
 <details>
@@ -281,7 +296,7 @@ Standardizer)</summary>
     2023) <https://docs.rs/rapidfuzz/0.5.0/rapidfuzz/>. Interval joins are
     backed by a Adelson-Velsky and Landis tree as implemented by the 'interavl'
     'Rust' crate <https://docs.rs/interavl/0.5.0/interavl/>.</li>
-      <li><strong>Downloads:</strong> 754</li>
+      <li><strong>Downloads:</strong> 786</li>
     </ul>
 </details>
 <details>
@@ -293,7 +308,7 @@ Standardizer)</summary>
     data frames. Supports 'Mapbox Vector Tile' ('MVT') and 'MapLibre Tile'
     ('MLT') output formats. Uses a 'Rust' backend via 'extendr' for fast,
     in-memory tiling with zero external system dependencies.</li>
-      <li><strong>Downloads:</strong> 816</li>
+      <li><strong>Downloads:</strong> 944</li>
     </ul>
 </details>
 <details>
@@ -307,7 +322,7 @@ Standardizer)</summary>
     identification strategy leads to causal inferences that are incorrect
     relative to a ground-truth graph when applied to a candidate graph instead.
     See also Henckel, Würtzen, Weichwald (2024) <doi:10.48550/arXiv.2402.08616>.</li>
-      <li><strong>Downloads:</strong> 1492</li>
+      <li><strong>Downloads:</strong> 1518</li>
     </ul>
 </details>
 <details>
@@ -332,7 +347,7 @@ to deliver scalable, accurate density estimation for large geospatial datasets w
   library and allows you to set up readers and writers and execute queries
   against it. The package also offers 'knitr' and 'shiny' integration allowing
   the user to use 'ggsql' in both frameworks.</li>
-      <li><strong>Downloads:</strong> 134</li>
+      <li><strong>Downloads:</strong> 276</li>
     </ul>
 </details>
 <details>
@@ -341,7 +356,7 @@ to deliver scalable, accurate density estimation for large geospatial datasets w
       <li><strong>Author:</strong> Josiah Parry</li>
       <li><strong>URL:</strong> <a href='https://github.com/extendr/h3o'>https://github.com/extendr/h3o</a></li>
       <li><strong>Description:</strong> A dependency free interface to the H3 geospatial indexing system utilizing the Rust library 'h3o' <https://github.com/HydroniumLabs/h3o> via the 'extendr' library <https://github.com/extendr/extendr>.</li>
-      <li><strong>Downloads:</strong> 4940</li>
+      <li><strong>Downloads:</strong> 5040</li>
     </ul>
 </details>
 <details>
@@ -352,7 +367,7 @@ to deliver scalable, accurate density estimation for large geospatial datasets w
       <li><strong>Description:</strong> Provides a case conversion between common cases like CamelCase and 
     snake_case. Using the 'rust crate heck' <https://github.com/withoutboats/heck>
     as the backend for a highly performant case conversion for 'R'.</li>
-      <li><strong>Downloads:</strong> 9972</li>
+      <li><strong>Downloads:</strong> 10063</li>
     </ul>
 </details>
 <details>
@@ -366,7 +381,7 @@ to deliver scalable, accurate density estimation for large geospatial datasets w
     (InterPlanetary Linked Data) library <https://github.com/ipld/libipld>.
     This is especially useful for working with data from 'IPFS'
     (InterPlanetary File System) and 'AtProto' (Bluesky) applications.</li>
-      <li><strong>Downloads:</strong> 59</li>
+      <li><strong>Downloads:</strong> 163</li>
     </ul>
 </details>
 <details>
@@ -377,7 +392,7 @@ to deliver scalable, accurate density estimation for large geospatial datasets w
       <li><strong>Description:</strong> Repairs malformed JSON strings, particularly those generated by
     Large Language Models. Handles missing quotes, trailing commas, unquoted
     keys, and other common JSON syntax errors.</li>
-      <li><strong>Downloads:</strong> 1405</li>
+      <li><strong>Downloads:</strong> 1488</li>
     </ul>
 </details>
 <details>
@@ -389,7 +404,7 @@ to deliver scalable, accurate density estimation for large geospatial datasets w
     its high-performance methods for filtering, joining, and mutating
     data. Ensures that mutations and changes to the graph are performed in
     place, streamlining your workflow for optimal productivity.</li>
-      <li><strong>Downloads:</strong> 8600</li>
+      <li><strong>Downloads:</strong> 8695</li>
     </ul>
 </details>
 <details>
@@ -418,7 +433,7 @@ Text Search</summary>
     BM25 is a ranking function used by search engines to rank matching documents according to their relevance to a user's search query.
     This package provides a light wrapper around the 'BM25' 'rust' crate for Okapi BM25 text search.
     For more information, see Robertson et al. (1994) <https://trec.nist.gov/pubs/trec3/t3_proceedings.html>.</li>
-      <li><strong>Downloads:</strong> 2988</li>
+      <li><strong>Downloads:</strong> 3024</li>
     </ul>
 </details>
 <details>
@@ -432,7 +447,7 @@ Text Search</summary>
     serialization formats ('Turtle', 'N-Triples', 'RDF-XML', 'N-Quads', 'TriG'), 
     and full 'SPARQL' 1.1 Query and Update support. Built using the 'extendr' 
     framework for 'Rust'-R bindings.</li>
-      <li><strong>Downloads:</strong> 1004</li>
+      <li><strong>Downloads:</strong> 1047</li>
     </ul>
 </details>
 <details>
@@ -441,7 +456,7 @@ Text Search</summary>
       <li><strong>Author:</strong> Bjørn Tore Kopperud</li>
       <li><strong>URL:</strong> </li>
       <li><strong>Description:</strong> Implements diversification analyses using the phylogenetic birth-death-shift model. It leverages belief propagation techniques to calculate branch-specific diversification rates, see Kopperud & Hoehna (2025) <doi:10.1093/sysbio/syaf041>.</li>
-      <li><strong>Downloads:</strong> 1023</li>
+      <li><strong>Downloads:</strong> 1077</li>
     </ul>
 </details>
 <details>
@@ -458,7 +473,7 @@ Text Search</summary>
     rolling_autoc from Liu, Gao & Wang (2018) <doi:10.1016/j.scitotenv.2018.06.276>
     Sample data sets lake_data & lake_RSI processed from Bush, Silman & Urrego (2004) <doi:10.1126/science.1090795>
     Sample data set January_PDO from NOAA: <https://www.ncei.noaa.gov/access/monitoring/pdo/>.</li>
-      <li><strong>Downloads:</strong> 204489</li>
+      <li><strong>Downloads:</strong> 204549</li>
     </ul>
 </details>
 <details>
@@ -468,7 +483,26 @@ Models</summary>
       <li><strong>Author:</strong> David Zimmermann-Kollenda</li>
       <li><strong>URL:</strong> <a href='https://davzim.github.io/rtiktoken/'>https://davzim.github.io/rtiktoken/</a></li>
       <li><strong>Description:</strong> A thin wrapper around the tiktoken-rs crate, allowing to encode text into Byte-Pair-Encoding (BPE) tokens and decode tokens back to text. This is useful to understand how Large Language Models (LLMs) perceive text. </li>
-      <li><strong>Downloads:</strong> 5217</li>
+      <li><strong>Downloads:</strong> 5259</li>
+    </ul>
+</details>
+<details>
+  <summary><a href='https://github.com/ABindoff/smoothbp'><strong>smoothbp</strong></a>: Hierarchical Piecewise Regression with Smoothed Change-Points</summary>
+    <ul>
+      <li><strong>Author:</strong> Aidan D Bindoff</li>
+      <li><strong>URL:</strong> <a href='https://github.com/ABindoff/smoothbp'>https://github.com/ABindoff/smoothbp</a></li>
+      <li><strong>Description:</strong> Fits Bayesian hierarchical piecewise regression models with 
+    multiple logistic-smoothed change-points. Non-linear parameters (change-point 
+    locations and transition sharpness) and linear parameters can each be 
+    conditioned on covariates and factors via flexible design matrices. 
+    A random-intercept structure is supported for any parameter. Spike-and-slab 
+    regularization is supported for selecting the number of breakpoints. 
+    Posterior inference uses a Metropolis-within-Gibbs sampler implemented 
+    in 'Rust' for speed. Methods are based on the smooth transition 
+    piecewise regression model of Bacon and Watts (1971) <doi:10.2307/2334389> 
+    and variable selection spike-and-slab priors of Kuo and Mallick (1998) 
+    <https://www.jstor.org/stable/25053023>.</li>
+      <li><strong>Downloads:</strong> 100</li>
     </ul>
 </details>
 <details>
@@ -479,7 +513,7 @@ Models</summary>
       <li><strong>Description:</strong> Provides an interface to search, read, query, and retrieve metadata for 
     datasets hosted on 'Socrata' open data portals. Supports all 'Socrata' data types, 
     including spatial data returned as 'sf' objects. </li>
-      <li><strong>Downloads:</strong> 2057</li>
+      <li><strong>Downloads:</strong> 2111</li>
     </ul>
 </details>
 <details>
@@ -497,7 +531,7 @@ Market Analysis</summary>
     the 'HiGHS' solver via the 'highs' package for facility location
     mixed-integer programs. Method-level references are provided in the
     documentation of the individual functions.</li>
-      <li><strong>Downloads:</strong> 835</li>
+      <li><strong>Downloads:</strong> 928</li>
     </ul>
 </details>
 <details>
@@ -510,7 +544,7 @@ Market Analysis</summary>
     The package allows you to format 'SQL' code with customizable options,
     including indentation, case formatting, and more, ensuring your 'SQL'
     queries are clean, readable, and consistent.</li>
-      <li><strong>Downloads:</strong> 3061</li>
+      <li><strong>Downloads:</strong> 3096</li>
     </ul>
 </details>
 <details>
@@ -523,7 +557,7 @@ Market Analysis</summary>
     the 'tidyverse' style guide. The package uses a native
     Rust implementation to ensure the highest performance.
     Learn more about 'tergo' at <https://rtergo.pagacz.io>.</li>
-      <li><strong>Downloads:</strong> 3233</li>
+      <li><strong>Downloads:</strong> 3260</li>
     </ul>
 </details>
 <details>
@@ -538,7 +572,7 @@ Market Analysis</summary>
     'mozjpeg' crate. The package provides functions to optimize individual
     image files or entire directories, with configurable compression levels.
     Use tinyimg() as a convenient entry point for mixed PNG/JPEG workflows.</li>
-      <li><strong>Downloads:</strong> 1668</li>
+      <li><strong>Downloads:</strong> 1756</li>
     </ul>
 </details>
 <details>
@@ -549,7 +583,7 @@ Market Analysis</summary>
       <li><strong>Description:</strong> A toolkit for working with 'TOML' files in R while preserving
     formatting, comments, and structure. 'tomledit' enables serialization of R
     objects such as lists, data.frames, numeric, logical, and date vectors.</li>
-      <li><strong>Downloads:</strong> 10145</li>
+      <li><strong>Downloads:</strong> 10419</li>
     </ul>
 </details>
 <details>
@@ -560,7 +594,7 @@ Market Analysis</summary>
       <li><strong>Description:</strong> Reconstructs all possible raw data that could have led to reported
     summary statistics. Provides a wrapper for the 'Rust' implementation of the
     'CLOSURE' algorithm.</li>
-      <li><strong>Downloads:</strong> 1806</li>
+      <li><strong>Downloads:</strong> 1866</li>
     </ul>
 </details>
 <details>
@@ -574,7 +608,7 @@ Market Analysis</summary>
     identifiers, while versions 4, 5, 6, and legacy version 1 are also
     supported. Functions return character vectors by default and can also
     expose 16-byte raw representations for low-level workflows.</li>
-      <li><strong>Downloads:</strong> 778</li>
+      <li><strong>Downloads:</strong> 847</li>
     </ul>
 </details>
 <details>
@@ -585,7 +619,7 @@ Market Analysis</summary>
       <li><strong>Description:</strong> Provides routing based on the 'path-tree' 'Rust' crate. The routing
     is general purpose in the sense that any type of R object can be associated
     with a path, not just a handler function.</li>
-      <li><strong>Downloads:</strong> 4294</li>
+      <li><strong>Downloads:</strong> 4479</li>
     </ul>
 </details>
 <details>
@@ -594,7 +628,7 @@ Market Analysis</summary>
       <li><strong>Author:</strong> Michael C Sachs</li>
       <li><strong>URL:</strong> <a href='https://sachsmc.github.io/xactonomial/'>https://sachsmc.github.io/xactonomial/</a></li>
       <li><strong>Description:</strong> We consider the problem where we observe k vectors (possibly of different lengths), each representing an independent multinomial random vector. For a given function that takes in the concatenated vector of multinomial probabilities and outputs a real number, this is a Monte Carlo estimation procedure of an exact p-value and confidence interval. The resulting inference is valid even in small samples, when the parameter is on the boundary, and when the function is not differentiable at the parameter value, all situations where asymptotic methods and the bootstrap would fail. For more details see Sachs, Fay, and Gabriel (2025) <doi:10.48550/arXiv.2406.19141>.</li>
-      <li><strong>Downloads:</strong> 2043</li>
+      <li><strong>Downloads:</strong> 2066</li>
     </ul>
 </details>
 <details>
@@ -609,7 +643,7 @@ Market Analysis</summary>
     round-trips common 'R' data structures. Implements the 'YAML' 1.2.2
     specification from the 'YAML' Language Development Team (2021)
     <https://yaml.org/spec/1.2.2/>. Proudly supported by Posit.</li>
-      <li><strong>Downloads:</strong> 3479</li>
+      <li><strong>Downloads:</strong> 3693</li>
     </ul>
 </details>
 <details>
@@ -620,7 +654,7 @@ Market Analysis</summary>
       <li><strong>Description:</strong> Convert 'YMD' format number or string to Date efficiently, using Rust's
     standard library. It also provides helper functions to handle Date, e.g., quick
     finding the beginning or end of the given period, adding months to Date, etc.</li>
-      <li><strong>Downloads:</strong> 9862</li>
+      <li><strong>Downloads:</strong> 9911</li>
     </ul>
 </details>
 <details>
@@ -629,7 +663,7 @@ Market Analysis</summary>
       <li><strong>Author:</strong> Beniamino Green</li>
       <li><strong>URL:</strong> <a href='https://beniamino.org/zoomerjoin/'>https://beniamino.org/zoomerjoin/</a></li>
       <li><strong>Description:</strong> Empowers users to fuzzily-merge data frames with millions or tens of millions of rows in minutes with low memory usage.  The package uses the locality sensitive hashing algorithms developed by Datar, Immorlica, Indyk and Mirrokni (2004) <doi:10.1145/997817.997857>, and Broder (1998) <doi:10.1109/SEQUEN.1997.666900> to avoid having to compare every pair of records in each dataset, resulting in fuzzy-merges that finish in linear time.</li>
-      <li><strong>Downloads:</strong> 7673</li>
+      <li><strong>Downloads:</strong> 7771</li>
     </ul>
 </details>
 
