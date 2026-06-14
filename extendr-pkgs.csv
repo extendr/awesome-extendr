@@ -5,20 +5,20 @@
     projection onto a dodecahedron. Provides functions for indexing
     coordinates to cells, traversing the cell hierarchy, computing cell
     boundaries, and compacting/uncompacting cell sets. Powered by the
-    'A5' 'Rust' crate via 'extendr'.","https://github.com/belian-earth/a5R",2098
+    'A5' 'Rust' crate via 'extendr'.","https://github.com/belian-earth/a5R",2253
 "ahocorasick","Fast Multi-Pattern String Matching with the 'Aho-Corasick'
 Algorithm","Hao Cheng","Provide fast multi-pattern string matching for 'R' using the
     'Aho-Corasick' algorithm, powered by the 'Rust' 'aho-corasick' crate. It
     builds reusable automatons for detecting matches, counting matches, locating
     character, extracting matched text, and replacing matches in character vectors.
     For more details on the 'Aho-Corasick' algorithm, please see
-    Aho and Corasick (1975) <doi:10.1145/360825.360855>.","https://yousa-mirage.github.io/r-ahocorasick/",64
+    Aho and Corasick (1975) <doi:10.1145/360825.360855>.","https://yousa-mirage.github.io/r-ahocorasick/",245
 "arcgis","ArcGIS Location Services Meta-Package","Josiah Parry","Provides easy installation and loading of core ArcGIS
     location services packages 'arcgislayers', 'arcgisutils',
     'arcgisgeocode', and 'arcgisplaces'. Enabling developers to interact
     with spatial data and services from 'ArcGIS Online', 'ArcGIS
     Enterprise', and 'ArcGIS Platform'. Learn more about the 'arcgis'
-    meta-package at <https://developers.arcgis.com/r-bridge/>.","https://github.com/R-ArcGIS/arcgis/",14378
+    meta-package at <https://developers.arcgis.com/r-bridge/>.","https://github.com/R-ArcGIS/arcgis/",14607
 "arcgisgeocode","A Robust Interface to ArcGIS 'Geocoding Services'","Josiah Parry","A very fast and robust interface to ArcGIS 'Geocoding
     Services'. Provides capabilities for reverse geocoding, finding
     address candidates, character-by-character search autosuggestion, and
@@ -27,14 +27,14 @@ Algorithm","Hao Cheng","Provide fast multi-pattern string matching for 'R' using
     'arcgisgeocode' also integrates with 'arcgisutils' to provide access
     to custom locators or private 'ArcGIS World Geocoder' hosted on
     'ArcGIS Enterprise'. Learn more in the 'Geocode service' API reference
-    <https://developers.arcgis.com/rest/geocode/api-reference/overview-world-geocoding-service.htm>.","https://github.com/r-arcgis/arcgisgeocode",13360
+    <https://developers.arcgis.com/rest/geocode/api-reference/overview-world-geocoding-service.htm>.","https://github.com/r-arcgis/arcgisgeocode",13523
 "arcgisplaces","Search for POIs using ArcGIS 'Places Service'","Josiah Parry","The ArcGIS 'Places service' is a ready-to-use location
     service that can search for businesses and geographic locations around
     the world. It allows you to find, locate, and discover detailed
     information about each place. Query for places near a point, within a
     bounding box, filter based on categories, or provide search text.
     'arcgisplaces' integrates with 'sf' for out of the box compatibility
-    with other spatial libraries. Learn more in the 'Places service' API reference <https://developers.arcgis.com/rest/places/>.","https://github.com/R-ArcGIS/arcgisplaces",193410
+    with other spatial libraries. Learn more in the 'Places service' API reference <https://developers.arcgis.com/rest/places/>.","https://github.com/R-ArcGIS/arcgisplaces",193543
 "arcgisutils","R-ArcGIS Bridge Utility Functions","Josiah Parry","Developer oriented utility functions designed to be used as
     the building blocks of R packages that work with ArcGIS Location
     Services. It provides functionality for authorization, Esri JSON
@@ -42,38 +42,38 @@ Algorithm","Hao Cheng","Provide fast multi-pattern string matching for 'R' using
     geometry and Esri type conversions. To support 'ArcGIS Pro' users,
     authorization can be done via 'arcgisbinding'. Installation
     instructions for 'arcgisbinding' can be found at
-    <https://developers.arcgis.com/r-bridge/installation/>.","https://github.com/R-ArcGIS/arcgisutils",31513
+    <https://developers.arcgis.com/r-bridge/installation/>.","https://github.com/R-ArcGIS/arcgisutils",31943
 "arcpbf","Process ArcGIS Protocol Buffer FeatureCollections","Josiah Parry","Fast processing of ArcGIS FeatureCollection protocol buffers in R.
-  It is designed to work seamlessly with 'httr2' and integrates with 'sf'. ","https://r.esri.com/arcpbf/",23072
+  It is designed to work seamlessly with 'httr2' and integrates with 'sf'. ","https://r.esri.com/arcpbf/",23385
 "astgrepr","Parse and Manipulate R Code","Etienne Bacher","Parsing R code is key to build tools such as linters and stylers.
     This package provides a binding to the 'Rust' crate 'ast-grep' so that one
-    can parse and explore R code.","https://github.com/etiennebacher/astgrepr",4910
+    can parse and explore R code.","https://github.com/etiennebacher/astgrepr",5003
 "awdb","Query the USDA NWCC Air and Water Database REST API","Kenneth Blake Vernon","Query the four endpoints of the 'Air and Water Database (AWDB) REST
     API' maintained by the National Water and Climate Center (NWCC) at the 
     United States Department of Agriculture (USDA). Endpoints include data, 
     forecast, reference-data, and metadata. The package is extremely light 
     weight, with 'Rust' via 'extendr' doing most of the heavy lifting to 
     deserialize and flatten deeply nested 'JSON' responses. The AWDB can be 
-    found at <https://wcc.sc.egov.usda.gov/awdbRestApi/swagger-ui/index.html>.","https://github.com/kbvernon/awdb",6436
+    found at <https://wcc.sc.egov.usda.gov/awdbRestApi/swagger-ui/index.html>.","https://github.com/kbvernon/awdb",6585
 "b32","Fast and Vectorized Base32 Encoding","Josiah Parry","Fast, dependency free, and vectorized base32 encoding and
     decoding. 'b32' supports the Crockford, Z, RFC 4648 lower, hex, and
-    lower hex alphabets.","https://github.com/extendr/b32",1015
+    lower hex alphabets.","https://github.com/extendr/b32",1073
 "b64","Fast and Vectorized Base 64 Engine","Josiah Parry","Provides a fast, lightweight, and vectorized base 64 engine
     to encode and decode character and raw vectors as well as files stored
     on disk. Common base 64 alphabets are supported out of the box
     including the standard, URL-safe, bcrypt, crypt, 'BinHex', and
     IMAP-modified UTF-7 alphabets. Custom engines can be created to
-    support unique base 64 encoding and decoding needs.","https://extendr.github.io/b64/",43366
+    support unique base 64 encoding and decoding needs.","https://extendr.github.io/b64/",43467
 "caugi","Causal Graph Interface","Frederik Fabricius-Bjerre","Create, query, and modify causal graphs. 'caugi' (Causal Graph
     Interface) is a causality-first, high performance graph package that
     provides a simple interface to build, structure, and examine causal
-    relationships.","https://caugi.org/",9265
+    relationships.","https://caugi.org/",9344
 "ciflyr","Reachability-Based Primitives for Graphical Causal Inference","Marcel Wienöbst","Provides a framework for specifying and running flexible
     linear-time reachability-based algorithms for graphical causal inference. Rule
     tables are used to encode and customize the reachability algorithm to typical
     causal and probabilistic reasoning tasks such as finding d-connected nodes or
     more advanced applications. For more information, see Wienöbst, Weichwald and
-    Henckel (2025) <doi:10.48550/arXiv.2506.15758>.","https://cifly.dev/",1998
+    Henckel (2025) <doi:10.48550/arXiv.2506.15758>.","https://cifly.dev/",2054
 "datefixR","Standardize Dates in Different Formats or with Missing Data","Nathan Constantine-Cooke","There are many different formats dates are commonly
     represented with: the order of day, month, or year can differ,
     different separators (""-"", ""/"", or whitespace) can be used, months can
@@ -83,25 +83,25 @@ Algorithm","Hao Cheng","Provide fast multi-pattern string matching for 'R' using
     standardize a date, such as because it is too malformed, then the user
     is told which date cannot be standardized and the corresponding ID for
     the row. 'datefixR' also allows the imputation of missing days and
-    months with user-controlled behavior.","https://docs.ropensci.org/datefixR/",20861
+    months with user-controlled behavior.","https://docs.ropensci.org/datefixR/",21093
 "enderecobr","Padronizador de Endereços Brasileiros (Brazilian Addresses
 Standardizer)","Daniel Herszenhut","Padroniza endereços brasileiros a partir de diferentes
     critérios. Os métodos de padronização incluem apenas manipulações
     básicas de strings, não oferecendo suporte a correspondências
     probabilísticas entre strings. (Standardizes brazilian addresses using
     different criteria. Standardization methods include only basic string
-    manipulation, not supporting probabilistic matches between strings.)","https://github.com/ipeaGIT/enderecobr",70734
+    manipulation, not supporting probabilistic matches between strings.)","https://github.com/ipeaGIT/enderecobr",70821
 "eulerr","Area-Proportional Euler and Venn Diagrams with Ellipses","Johan Larsson","Generate area-proportional Euler diagrams
     using numerical optimization. An Euler diagram is a generalization of a Venn
     diagram, relaxing the criterion that all interactions need to be
     represented. Diagrams may be fit with ellipses and circles via
-    a wide range of inputs and can be visualized in numerous ways.","https://github.com/jolars/eulerr",187842
+    a wide range of inputs and can be visualized in numerous ways.","https://github.com/jolars/eulerr",190484
 "fastgeojson","High-Performance 'GeoJSON' and 'JSON' Serialization","Alex Jorion","Converts R data frames and 'sf' spatial objects into 'JSON' and 
     'GeoJSON' strings. The core encoders are implemented in 'Rust' using the 
     'extendr' framework and are designed to efficiently serialize large 
     tabular and spatial datasets. Returns serialized 'JSON' text, allowing 
     applications such as 'shiny' or web APIs to transfer data to 
-    client-side 'JavaScript' libraries without additional encoding overhead.","https://github.com/firstzeroenergy/fastgeojson",1114
+    client-side 'JavaScript' libraries without additional encoding overhead.","https://github.com/firstzeroenergy/fastgeojson",1161
 "fcl","A Financial Calculator","Xianying Tan","A financial calculator that provides very fast implementations
     of common financial indicators using 'Rust' code. It includes functions for
     bond-related indicators, such as yield to maturity ('YTM'), modified duration,
@@ -111,11 +111,11 @@ Standardizer)","Daniel Herszenhut","Padroniza endereços brasileiros a partir de
     to be efficient and accurate for financial analysis and computation. The methods
     used in this package are based on the following references:
     <https://en.wikipedia.org/wiki/Modified_Dietz_method>,
-    <https://en.wikipedia.org/wiki/Time-weighted_return>.","https://github.com/shrektan/fcl",351731
+    <https://en.wikipedia.org/wiki/Time-weighted_return>.","https://github.com/shrektan/fcl",351794
 "fio","Friendly Input-Output Analysis","Alberson da Silva Miranda","Simplifies the process of economic input-output analysis by combining
   user-friendly interfaces with high-performance computation. It provides tools
   for analyzing both single-region and multi-regional economic systems through a
-  hybrid architecture that pairs R's accessibility with Rust's computational efficiency.","https://albersonmiranda.github.io/fio/",194221
+  hybrid architecture that pairs R's accessibility with Rust's computational efficiency.","https://albersonmiranda.github.io/fio/",194392
 "fozziejoin","Utilities for Joining Dataframes with Inexact Matching","Jon Downs","Provides functions for joining data frames based on inexact
     criteria, including string distance, Manhattan distance, Euclidean
     distance, and interval overlap. This API is designed as a modern,
@@ -126,17 +126,17 @@ Standardizer)","Daniel Herszenhut","Padroniza endereços brasileiros a partir de
     string distance calculations rely on the 'rapidfuzz' 'Rust' crate (Bachmann
     2023) <https://docs.rs/rapidfuzz/0.5.0/rapidfuzz/>. Interval joins are
     backed by a Adelson-Velsky and Landis tree as implemented by the 'interavl'
-    'Rust' crate <https://docs.rs/interavl/0.5.0/interavl/>.","https://github.com/fozzieverse/fozziejoin",786
+    'Rust' crate <https://docs.rs/interavl/0.5.0/interavl/>.","https://github.com/fozzieverse/fozziejoin",845
 "freestiler","Create Vector Tiles from Spatial Data","Kyle Walker","Create vector tile archives in 'PMTiles' format from 'sf' spatial
     data frames. Supports 'Mapbox Vector Tile' ('MVT') and 'MapLibre Tile'
     ('MLT') output formats. Uses a 'Rust' backend via 'extendr' for fast,
-    in-memory tiling with zero external system dependencies.","https://walker-data.com/freestiler/",944
+    in-memory tiling with zero external system dependencies.","https://walker-data.com/freestiler/",1101
 "gadjid","Graph Adjustment Identification Distances for Causal Graphs","Sebastian Weichwald","Make efficient Rust implementations of graph adjustment
     identification distances available in R. These distances (based on ancestor,
     optimal, and parent adjustment) count how often the respective adjustment
     identification strategy leads to causal inferences that are incorrect
     relative to a ground-truth graph when applied to a candidate graph instead.
-    See also Henckel, Würtzen, Weichwald (2024) <doi:10.48550/arXiv.2402.08616>.","https://github.com/CausalDisco/gadjid",1518
+    See also Henckel, Würtzen, Weichwald (2024) <doi:10.48550/arXiv.2402.08616>.","https://github.com/CausalDisco/gadjid",1565
 "geodensity","Geodesic Kernel Density Estimation for Spatial Data","Andrew Brown","Compute kernel density estimates on geographic data using geodesic distances.
 Combines the terra package's efficient raster processing with a parallelized Rust backend
 to deliver scalable, accurate density estimation for large geospatial datasets without.",NA,NA
@@ -145,24 +145,27 @@ to deliver scalable, accurate density estimation for large geospatial datasets w
   composable syntax. The 'ggsql' package binds directly with the 'ggsql' 'Rust'
   library and allows you to set up readers and writers and execute queries
   against it. The package also offers 'knitr' and 'shiny' integration allowing
-  the user to use 'ggsql' in both frameworks.","https://r.ggsql.org",276
-"h3o","H3 Geospatial Indexing System","Josiah Parry","A dependency free interface to the H3 geospatial indexing system utilizing the Rust library 'h3o' <https://github.com/HydroniumLabs/h3o> via the 'extendr' library <https://github.com/extendr/extendr>.","https://github.com/extendr/h3o",5040
+  the user to use 'ggsql' in both frameworks.","https://r.ggsql.org",468
+"gtfsrealtime","Read GTFS-Realtime Files into Data Frames","Matthew Bhagat-Conway","GTFS-realtime is a format transit agencies use to provide current vehicle positions, predicted
+    arrival times, and service alerts. This package provides efficient functions to read this format into
+    data frames. It can be used to retrieve current data or to process archived data.","http://projects.indicatrix.org/gtfsrealtime-r/",10
+"h3o","H3 Geospatial Indexing System","Josiah Parry","A dependency free interface to the H3 geospatial indexing system utilizing the Rust library 'h3o' <https://github.com/HydroniumLabs/h3o> via the 'extendr' library <https://github.com/extendr/extendr>.","https://github.com/extendr/h3o",5182
 "heck","Highly Performant String Case Converter","Josiah Parry","Provides a case conversion between common cases like CamelCase and 
     snake_case. Using the 'rust crate heck' <https://github.com/withoutboats/heck>
-    as the backend for a highly performant case conversion for 'R'.","https://github.com/DyfanJones/heck",10063
+    as the backend for a highly performant case conversion for 'R'.","https://github.com/DyfanJones/heck",10225
 "libipldr","R Bindings to the 'Rust' 'IPLD' Library","Johannes B. Gruber","Provides R bindings to decode DAG-CBOR (Directed Acyclic Graph
     Concise Binary Object Representation) encoded data, CIDs (Content Identifiers),
     and CAR (Content Addressable aRchive) files using the 'Rust' 'IPLD'
     (InterPlanetary Linked Data) library <https://github.com/ipld/libipld>.
     This is especially useful for working with data from 'IPFS'
-    (InterPlanetary File System) and 'AtProto' (Bluesky) applications.","https://github.com/JBGruber/libipldr",163
+    (InterPlanetary File System) and 'AtProto' (Bluesky) applications.","https://github.com/JBGruber/libipldr",321
 "llmjson","Repair Malformed JSON Strings","Dyfan Jones","Repairs malformed JSON strings, particularly those generated by
     Large Language Models. Handles missing quotes, trailing commas, unquoted
-    keys, and other common JSON syntax errors.","https://github.com/DyfanJones/llmjson",1488
+    keys, and other common JSON syntax errors.","https://github.com/DyfanJones/llmjson",1630
 "orbweaver","Fast and Efficient Graph Data Structures","ixpantia, SRL","Seamlessly build and manipulate graph structures, leveraging
     its high-performance methods for filtering, joining, and mutating
     data. Ensures that mutations and changes to the graph are performed in
-    place, streamlining your workflow for optimal productivity.","https://github.com/ixpantia/orbweaver-r",8695
+    place, streamlining your workflow for optimal productivity.","https://github.com/ixpantia/orbweaver-r",8850
 "Pmetrics","Pmetrics for Population Modeling and Simulation","Michael Neely","Pmetrics is short for pharmacometrics, the discipline of
 modeling drug kinetics and effects on biologic systems, including
 disease progression. Models can be used to simulate novel therapeutic
@@ -175,14 +178,14 @@ software suite for population pharmacometric data analysis.","https://lapkb.gith
 Text Search","David Zimmermann-Kollenda","
     BM25 is a ranking function used by search engines to rank matching documents according to their relevance to a user's search query.
     This package provides a light wrapper around the 'BM25' 'rust' crate for Okapi BM25 text search.
-    For more information, see Robertson et al. (1994) <https://trec.nist.gov/pubs/trec3/t3_proceedings.html>.","https://davzim.github.io/rbm25/",3024
+    For more information, see Robertson et al. (1994) <https://trec.nist.gov/pubs/trec3/t3_proceedings.html>.","https://davzim.github.io/rbm25/",3076
 "roxigraph","'RDF' and 'SPARQL' for R using 'Oxigraph'","Carl Boettiger","Provides 'RDF' storage and 'SPARQL' 1.1 query capabilities by wrapping
     the 'Oxigraph' graph database library <https://github.com/oxigraph/oxigraph>. 
     Supports in-memory and persistent ('RocksDB') storage, multiple 'RDF' 
     serialization formats ('Turtle', 'N-Triples', 'RDF-XML', 'N-Quads', 'TriG'), 
     and full 'SPARQL' 1.1 Query and Update support. Built using the 'extendr' 
-    framework for 'Rust'-R bindings.","https://github.com/cboettig/roxigraph",1047
-"RPesto","Phylogenetic Estimation of Shifts in the Tempo of Origination","Bjørn Tore Kopperud","Implements diversification analyses using the phylogenetic birth-death-shift model. It leverages belief propagation techniques to calculate branch-specific diversification rates, see Kopperud & Hoehna (2025) <doi:10.1093/sysbio/syaf041>.",NA,1077
+    framework for 'Rust'-R bindings.","https://github.com/cboettig/roxigraph",1102
+"RPesto","Phylogenetic Estimation of Shifts in the Tempo of Origination","Bjørn Tore Kopperud","Implements diversification analyses using the phylogenetic birth-death-shift model. It leverages belief propagation techniques to calculate branch-specific diversification rates, see Kopperud & Hoehna (2025) <doi:10.1093/sysbio/syaf041>.",NA,1136
 "rshift","Paleoecology Functions for Regime Shift Analysis","Alex H. Room","Contains a variety of functions, based around
     regime shift analysis of paleoecological data.
     Citations:
@@ -191,9 +194,9 @@ Text Search","David Zimmermann-Kollenda","
     Hellinger_trans from Numerical Ecology, Legendre & Legendre (ISBN 9780444538680)
     rolling_autoc from Liu, Gao & Wang (2018) <doi:10.1016/j.scitotenv.2018.06.276>
     Sample data sets lake_data & lake_RSI processed from Bush, Silman & Urrego (2004) <doi:10.1126/science.1090795>
-    Sample data set January_PDO from NOAA: <https://www.ncei.noaa.gov/access/monitoring/pdo/>.","https://github.com/alexhroom/rshift",204549
+    Sample data set January_PDO from NOAA: <https://www.ncei.noaa.gov/access/monitoring/pdo/>.","https://github.com/alexhroom/rshift",204638
 "rtiktoken","A Byte-Pair-Encoding (BPE) Tokenizer for OpenAI's Large Language
-Models","David Zimmermann-Kollenda","A thin wrapper around the tiktoken-rs crate, allowing to encode text into Byte-Pair-Encoding (BPE) tokens and decode tokens back to text. This is useful to understand how Large Language Models (LLMs) perceive text. ","https://davzim.github.io/rtiktoken/",5259
+Models","David Zimmermann-Kollenda","A thin wrapper around the tiktoken-rs crate, allowing to encode text into Byte-Pair-Encoding (BPE) tokens and decode tokens back to text. This is useful to understand how Large Language Models (LLMs) perceive text. ","https://davzim.github.io/rtiktoken/",5316
 "smoothbp","Hierarchical Piecewise Regression with Smoothed Change-Points","Aidan D Bindoff","Fits Bayesian hierarchical piecewise regression models with 
     multiple logistic-smoothed change-points. Non-linear parameters (change-point 
     locations and transition sharpness) and linear parameters can each be 
@@ -204,10 +207,10 @@ Models","David Zimmermann-Kollenda","A thin wrapper around the tiktoken-rs crate
     in 'Rust' for speed. Methods are based on the smooth transition 
     piecewise regression model of Bacon and Watts (1971) <doi:10.2307/2334389> 
     and variable selection spike-and-slab priors of Kuo and Mallick (1998) 
-    <https://www.jstor.org/stable/25053023>.","https://github.com/ABindoff/smoothbp",100
+    <https://www.jstor.org/stable/25053023>.","https://github.com/ABindoff/smoothbp",281
 "socratadata","Explore Socrata Data with Ease","Ryan Zomorrodi","Provides an interface to search, read, query, and retrieve metadata for 
     datasets hosted on 'Socrata' open data portals. Supports all 'Socrata' data types, 
-    including spatial data returned as 'sf' objects. ","https://ryanzomorrodi.github.io/socratadata/",2111
+    including spatial data returned as 'sf' objects. ","https://ryanzomorrodi.github.io/socratadata/",2167
 "spopt","Spatial Optimization for Regionalization, Facility Location, and
 Market Analysis","Kyle Walker","Implements spatial optimization algorithms across several
     problem families including contiguity-constrained regionalization, discrete
@@ -217,48 +220,48 @@ Market Analysis","Kyle Walker","Implements spatial optimization algorithms acros
     a 'Rust' backend via 'extendr' for graph and routing algorithms, and
     the 'HiGHS' solver via the 'highs' package for facility location
     mixed-integer programs. Method-level references are provided in the
-    documentation of the individual functions.","https://walker-data.com/spopt-r/",928
+    documentation of the individual functions.","https://walker-data.com/spopt-r/",1084
 "SQLFormatteR","Format SQL Queries","Morgan Durand","A convenient interface for formatting 'SQL' queries directly
     within 'R'. It acts as a wrapper around the 'sql_format' Rust crate.
     The package allows you to format 'SQL' code with customizable options,
     including indentation, case formatting, and more, ensuring your 'SQL'
-    queries are clean, readable, and consistent.","https://dataupsurge.github.io/SQLFormatteR/",3096
+    queries are clean, readable, and consistent.","https://dataupsurge.github.io/SQLFormatteR/",3146
 "tergo","Style Your Code Fast","Konrad Pagacz","Provides a set of functions
     that allow users for styling their R code according to
     the 'tidyverse' style guide. The package uses a native
     Rust implementation to ensure the highest performance.
-    Learn more about 'tergo' at <https://rtergo.pagacz.io>.","https://rtergo.pagacz.io",3260
+    Learn more about 'tergo' at <https://rtergo.pagacz.io>.","https://rtergo.pagacz.io",3310
 "tinyimg","Optimize and Compress Images","Yihui Xie","Optimize and compress images using 'Rust' libraries to reduce
     file sizes while maintaining image quality. Supports PNG palette
     reduction and dithering via the 'exoquant' crate before lossless PNG
     optimization via the 'oxipng' crate, and JPEG re-encoding via the
     'mozjpeg' crate. The package provides functions to optimize individual
     image files or entire directories, with configurable compression levels.
-    Use tinyimg() as a convenient entry point for mixed PNG/JPEG workflows.","https://github.com/yihui/tinyimg",1756
+    Use tinyimg() as a convenient entry point for mixed PNG/JPEG workflows.","https://github.com/yihui/tinyimg",1872
 "tomledit","Parse, Read, and Edit 'TOML'","Josiah Parry","A toolkit for working with 'TOML' files in R while preserving
     formatting, comments, and structure. 'tomledit' enables serialization of R
-    objects such as lists, data.frames, numeric, logical, and date vectors.","https://extendr.github.io/tomledit/",10419
+    objects such as lists, data.frames, numeric, logical, and date vectors.","https://extendr.github.io/tomledit/",10823
 "unsum","Reconstruct Raw Data from Summary Statistics","Lukas Jung","Reconstructs all possible raw data that could have led to reported
     summary statistics. Provides a wrapper for the 'Rust' implementation of the
-    'CLOSURE' algorithm.","https://github.com/lhdjung/unsum",1866
+    'CLOSURE' algorithm.","https://github.com/lhdjung/unsum",1914
 "uuidx","Modern UUIDs for R with a Rust Backend","Thomas Bryce Kelly","Generate, parse, and validate RFC 9562 UUIDs from R using the
     Rust 'uuid' crate via 'extendr'. Developed by Thomas Bryce Kelly at Icy
     Seas Co-Laboratory LLC. Version 7 UUIDs are the default for new
     identifiers, while versions 4, 5, 6, and legacy version 1 are also
     supported. Functions return character vectors by default and can also
-    expose 16-byte raw representations for low-level workflows.",NA,847
+    expose 16-byte raw representations for low-level workflows.",NA,979
 "waysign","Multi-Purpose and High-Performance Routing","Thomas Lin Pedersen","Provides routing based on the 'path-tree' 'Rust' crate. The routing
     is general purpose in the sense that any type of R object can be associated
-    with a path, not just a handler function.","https://github.com/thomasp85/waysign",4479
-"xactonomial","Inference for Functions of Multinomial Parameters","Michael C Sachs","We consider the problem where we observe k vectors (possibly of different lengths), each representing an independent multinomial random vector. For a given function that takes in the concatenated vector of multinomial probabilities and outputs a real number, this is a Monte Carlo estimation procedure of an exact p-value and confidence interval. The resulting inference is valid even in small samples, when the parameter is on the boundary, and when the function is not differentiable at the parameter value, all situations where asymptotic methods and the bootstrap would fail. For more details see Sachs, Fay, and Gabriel (2025) <doi:10.48550/arXiv.2406.19141>.","https://sachsmc.github.io/xactonomial/",2066
+    with a path, not just a handler function.","https://github.com/thomasp85/waysign",4666
+"xactonomial","Inference for Functions of Multinomial Parameters","Michael C Sachs","We consider the problem where we observe k vectors (possibly of different lengths), each representing an independent multinomial random vector. For a given function that takes in the concatenated vector of multinomial probabilities and outputs a real number, this is a Monte Carlo estimation procedure of an exact p-value and confidence interval. The resulting inference is valid even in small samples, when the parameter is on the boundary, and when the function is not differentiable at the parameter value, all situations where asymptotic methods and the bootstrap would fail. For more details see Sachs, Fay, and Gabriel (2025) <doi:10.48550/arXiv.2406.19141>.","https://sachsmc.github.io/xactonomial/",2125
 "yaml12","Fast 'YAML' 1.2 Parser and Formatter","Tomasz Kalinowski","A fast, correct, safe, and ergonomic 'YAML' 1.2 parser and
     generator written in 'Rust'. Convert between 'YAML' and simple 'R'
     objects with full support for multi-document streams, tags, anchors,
     and aliases. Offers opt-in handlers for custom tag behavior and
     round-trips common 'R' data structures. Implements the 'YAML' 1.2.2
     specification from the 'YAML' Language Development Team (2021)
-    <https://yaml.org/spec/1.2.2/>. Proudly supported by Posit.","https://posit-dev.github.io/r-yaml12/",3693
+    <https://yaml.org/spec/1.2.2/>. Proudly supported by Posit.","https://posit-dev.github.io/r-yaml12/",4089
 "ymd","Parse 'YMD' Format Number or String to Date","Xianying Tan","Convert 'YMD' format number or string to Date efficiently, using Rust's
     standard library. It also provides helper functions to handle Date, e.g., quick
-    finding the beginning or end of the given period, adding months to Date, etc.","https://shrektan.github.io/ymd/",9911
-"zoomerjoin","Superlatively Fast Fuzzy Joins","Beniamino Green","Empowers users to fuzzily-merge data frames with millions or tens of millions of rows in minutes with low memory usage.  The package uses the locality sensitive hashing algorithms developed by Datar, Immorlica, Indyk and Mirrokni (2004) <doi:10.1145/997817.997857>, and Broder (1998) <doi:10.1109/SEQUEN.1997.666900> to avoid having to compare every pair of records in each dataset, resulting in fuzzy-merges that finish in linear time.","https://beniamino.org/zoomerjoin/",7771
+    finding the beginning or end of the given period, adding months to Date, etc.","https://shrektan.github.io/ymd/",9997
+"zoomerjoin","Superlatively Fast Fuzzy Joins","Beniamino Green","Empowers users to fuzzily-merge data frames with millions or tens of millions of rows in minutes with low memory usage.  The package uses the locality sensitive hashing algorithms developed by Datar, Immorlica, Indyk and Mirrokni (2004) <doi:10.1145/997817.997857>, and Broder (1998) <doi:10.1109/SEQUEN.1997.666900> to avoid having to compare every pair of records in each dataset, resulting in fuzzy-merges that finish in linear time.","https://beniamino.org/zoomerjoin/",7927
